@@ -1,0 +1,94 @@
+<div class="block-wrap">
+  <div class="sample">
+    <p style="font-size: 0.75em;margin-bottom: 1rem;line-height:1.5rem;">
+      How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+    <p style="font-size: 0.75em;margin-bottom: 1rem;line-height:1.5rem;">How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+  </div>
+  <div class="moustache"></div>
+  <div class="dash"></div>
+  <div class="description">
+    <p class="system">This document is set at <span class="highlight-pink">150%</span> i.e <span class="highlight-blue">24px</span>. <br/><br>If I want a paragraph written in <span class="highlight-yellow">18px</span> then I have to set that paragraph to:
+    </p>
+    <p>
+      <span class="system highlight-green">  p =
+      <br>font-size : 0.75<span class="highlight-pink">em</span>;
+      <br>line-height : 1.5<span class="highlight-yellow">rem</span>;
+      <br>margin-bottom : 1<span class="highlight-yellow">rem</span>;
+
+      </span>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+
+<div class="block-wrap">
+  <div class="sample">
+    <p style="font-size: 0.667em;margin-bottom: 1rem;line-height:1.5rem;">
+      How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+    <p style="font-size: 0.667em;margin-bottom: 1rem;line-height:1.5rem;">How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+  </div>
+  <div class="moustache"></div>
+  <div class="dash"></div>
+  <div class="description">
+    <p class="system">This document is set at <span class="highlight-pink">150%</span> i.e <span class="highlight-blue">24px</span>. <br/><br>If I want a paragraph written in <span class="highlight-yellow">16px</span> then I have to set that paragraph to:</p>
+    <p>
+      <span class="system highlight-green">  p =
+      <br>font-size : 0.667<span class="highlight-pink">em</span></span>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+<div class="block-wrap">
+  <div class="sample">
+    <p style="font-size: 0.583em; line-height: 1.5rem;margin-bottom: 1rem;">
+      How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+    <p style="font-size: 0.583em; line-height: 1.5rem;margin-bottom: 1rem;">How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+  </div>
+  <div class="moustache"></div>
+  <div class="dash"></div>
+  <div class="description">
+    <p class="system">This document is set at <span class="highlight-pink">150%</span> i.e <span class="highlight-blue">24px</span>. <br/><br>If I want a paragraph written in <span class="highlight-yellow">14px</span> then I have to set that paragraph to:</p>
+    <p>
+      <span class="system highlight-green">  p =
+      <br>font-size : 0.583<span class="highlight-pink">em</span>
+      <br>line-height : 1.5<span class="highlight-yellow">rem</span>;
+      <br>margin-bottom : 1<span class="highlight-yellow">rem</span>;
+      </span>
+    </p>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="block-wrap">
+  <div class="sample">
+    <p style="font-size: 0.5em;margin-bottom: 0.5rem;line-height:1rem;">
+      How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+    <p style="font-size: 0.5em;margin-bottom: 0.5rem;line-height:1rem;">How razorback-jumping frogs can level six piqued gymnasts! In this town of men with big mouths and no guts</p>
+  </div>
+  <div class="moustache"></div>
+  <div class="dash"></div>
+  <div class="description">
+    <p class="system">This document is set at <span class="highlight-pink">150%</span> i.e <span class="highlight-blue">24px</span>. <br/><br>If I want a paragraph written in <span class="highlight-yellow">12px</span> then I have to set that paragraph to:</p>
+    <p>
+      <span class="system highlight-green">  p =
+      <br>font-size: 0.5<span class="highlight-pink">em</span>;
+      <br>line-height:1<span class="highlight-yellow">rem</span>;
+      <br>margin-bottom: 0.25<span class="highlight-yellow">rem</span>;
+
+      </span>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,84 @@
+@import "variables.scss";
+
+/*-------------*/
+/* Card styles */
+/*-------------*/
+
+.card_skin {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+
+  width: 15rem;
+  min-width: 15rem;
+  margin-left: 0;
+  margin-top: 0;
+
+  background-color: #e4e6e7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card_header {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+
+  align-self: flex-start;
+
+  background-color: #e4e6e7;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.card_header_text {
+  text-align: center;
+}
+
+.card_footer {
+  display: flex;
+
+  justify-content: center;
+  background-color: #e4e6e7;
+  border-top: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+.header_item {
+  background-color: var(--green);
+}
+
+.card_media {
+  width: 100%;
+  background-color: #404040;
+
+  img {
+    filter: grayscale(100%);
+    width: 100%;
+  }
+}
+
+.card_text {
+  width: 100%;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.card_cta {
+  text-align: center;
+}
+
+/*--text color--*/
+.card_header,
+.card_media,
+.card_footer,
+.card_text,
+.card_header_text {
+  color: #aaa;
+}
+
+.label-value {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

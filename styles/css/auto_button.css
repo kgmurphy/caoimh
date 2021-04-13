@@ -1,0 +1,15 @@
+:root {
+  --r-unit: 0.25rem;
+  --e-unit: 0.25em;
+  --padding-top: 0px;
+  --padding-bottom: 0px;
+  --padding-right: 0px;
+  --padding-left: 0px;
+}
+
+button {
+  padding: var(--padding-top) var(--padding-right) var(--padding-bottom) var(--padding-left);
+  padding: var(--r-unit);
+}
+
+/*# sourceMappingURL=auto_button.css.map */

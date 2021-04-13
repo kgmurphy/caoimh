@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+/*
+x1 = 1 base units
+x2 = 2 base units
+...
+*/
+.padding-x1 {
+  padding: 0.5rem;
+}
+
+.padding-x2, header {
+  padding: 1rem;
+}
+
+.margin-bottom-x1 {
+  margin-bottom: 0.5rem;
+}
+
+.margin-bottom-x2 {
+  margin-bottom: 1rem;
+}
+
+/* Headers */
+header h2 {
+  margin: 0;
+}
+header p {
+  margin: 0;
+}
+
+/* Dispålay boxes */
+.displaybox {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+.displaybox p.score {
+  font-size: 5em;
+  line-height: 5rem;
+  text-align: center;
+  color: white;
+  /*Remove before production:*/
+  border-bottom: none;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+.displaybox p.message {
+  text-align: center;
+  /*Remove before production:*/
+  border-bottom: none;
+  margin-bottom: 0;
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=components.css.map */

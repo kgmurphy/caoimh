@@ -1,0 +1,155 @@
+body {
+  font-size: 100%;
+}
+
+* {
+  margin: 0;
+  font-family: "Avenir-medium";
+}
+
+p {
+  font-size: 1em; /* 1 */
+  line-height: 1.5rem; /* 2 */
+  margin-bottom: 1.5rem; /* 3 */
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 16px
+* 3. Equal to 24px
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Avenir-medium";
+
+  color: #414042;
+}
+
+h1 {
+  font-size: 3em; /* 1 */
+  line-height: 3.5rem; /* 2 */
+  margin-bottom: 3.5rem; /* 3 */
+}
+/**
+* 1. Equal to 32px
+* 2. Equal to 40px
+* 3. Equal to 24px
+*/
+
+h2 {
+  font-size: 2.5em; /* 1 */
+  line-height: 3rem; /* 2 */
+  margin-bottom: 3rem; /* 3 */
+}
+/**
+* 1. Equal to 24px
+* 2. Equal to 32px
+* 3. Equal to 16px
+*/
+
+h3 {
+  font-size: 2em; /* 1 */
+  line-height: 2.5rem; /* 2 */
+  margin-bottom: 2.5rem; /* 3 */
+}
+/**
+* 1. Equal to 24px
+* 2. Equal to 24px
+* 3. Equal to 16px
+*/
+
+h4 {
+  font-size: 1.5em; /* 1 */
+  line-height: 2rem; /* 2 */
+  margin-bottom: 1.5rem; /* 3 */
+
+  text-transform: uppercase;
+}
+/**
+* 1. Equal to 20px
+* 2. Equal to 24px
+* 3. Equal to 16px
+*/
+
+h5 {
+  font-size: 1.5em; /* 1 */
+  line-height: 2rem; /* 2 */
+  margin-bottom: 1.5rem; /* 3 */
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 24px
+* 3. Equal to 8px
+*/
+
+h6 {
+  font-size: 1em; /* 1 */
+  line-height: 1.5rem; /* 2 */
+  margin-bottom: 1rem; /* 3 */
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 24px
+* 3. Equal to 8px
+*/
+
+nav {
+  margin-bottom: 1.5rem; /* 1 */
+}
+/**
+* 1. Equal to 24px
+*/
+
+ul {
+  margin-bottom: 1.5rem; /* 1 */
+}
+/**
+* 1. Equal to 24px
+*/
+
+li {
+  font-size: 1em; /* 1 */
+  line-height: 1.5rem; /* 2 */
+  margin-bottom: 0.5rem; /* 3 */
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 24px
+* 3. Equal to 8px
+*/
+
+label {
+  font-size: 1em; /* 1 */
+  line-height: 1.5rem; /* 2 */
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 24px
+*/
+
+input {
+  // font-size: 1em; /* 1 */
+  // line-height: 1em; /* 2 */
+  // border: solid 0.125rem black;
+  // padding: 0.25rem;
+  // margin: 0;
+}
+/**
+* 1. Equal to 16px
+* 2. Equal to 16px
+*/
+
+hr {
+  height: 0.0625rem; /* 1 */
+  margin-bottom: 0.4375rem; /* 2 */
+  border: 0;
+  display: block;
+}
+/**
+* 1. Equal to 1px
+* 2. Equal to 7px
+*/

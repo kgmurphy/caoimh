@@ -1,0 +1,118 @@
+<div class="component-card-deck">
+
+
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>Adorable icons
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>Adorable icons
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>Adorable icons
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>Adorable icons
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="component-card-mini">
+    <div class="component-card-mini-innerWrapper">
+      <div class="component-card-mini-mediaHolder">
+        <img src="md-images/ui.png" alt="">
+      </div>
+      <h3>UI Components - Light Theme</h3>
+      <p>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog.
+      </p>
+      <div class="component-card-mini-actions">
+        <div class="component-card-mini-actionsWrap">
+          <button>Download</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>

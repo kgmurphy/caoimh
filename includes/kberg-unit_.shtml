@@ -1,0 +1,28 @@
+<div class="wrap">   
+    <div class="titleBar"><h1>Instrument name</h1></div> 
+
+    <div class="infoWrap">
+        <div class="aspectSpan infoWrap_deets"></div>
+        <div class="widthSpan infoWrap_deets"></div>
+        <div class="heightSpan infoWrap_deets"></div>
+        <div class="availAspectSpan infoWrap_deets"></div>
+        <div class="availWidthSpan infoWrap_deets"></div>
+        <div class="availHeightSpan infoWrap_deets"></div>
+        <div class="paddingFactor infoWrap_deets"></div>
+        <div class="paddingSize infoWrap_deets"></div>
+        <div class="paddingTopFactor infoWrap_deets"></div>
+        <div class="paddingTopSize infoWrap_deets"></div>
+
+
+
+    <div class="kpi kpi_large">
+        <div class="kpi_title">SENSOR</div>
+        <div class="kpi_innards">
+            <div class="kpi_unit hidden">m/s</div>
+            <div class="kpi_nums">00.00</div>
+            <div class="kpi_unit">m/s</div>
+        </div>
+    </div>
+    </div>
+
+</div>

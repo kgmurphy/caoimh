@@ -1,0 +1,475 @@
+/*----------------------------------------------*/
+/*
+  1. Generic button stuff - stuff all buttons have such as flex properties, focus etc
+  2.
+ */
+/*----------------------------------------------*/
+
+@import "variables.scss";
+
+button,
+button span {
+  white-space: nowrap;
+}
+
+/* Generic button stuff */
+
+.btn {
+  --border-thickness: 0.125rem;
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+  --icon-size: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  font-size: 1em;
+  line-height: 1rem;
+
+  border: solid var(--border-thickness) black;
+  border-radius: var(--border-radius);
+
+  cursor: pointer;
+
+  span.icon svg {
+    height: var(--icon-size);
+  }
+
+  &:focus {
+    outline: 0;
+    box-shadow: 0px 0px 0px 1px $grey, 0px 0px 0px 2px $grey;
+  }
+}
+
+.btn {
+  /* ... */
+  /* all browsers: remove the default outline since
+      we are rolling our own focus styles */
+  outline: none;
+}
+
+/* Firefox: removes the inner border shown on focus */
+.btn::-moz-focus-inner {
+  border: none;
+}
+
+/* Button levels */
+
+/*
+*
+*  PRIMARY - COLORS and SVG's
+*  mixin :  buttonColors($backgroundColor, $borderColor, $labelColor)
+*
+*/
+
+.priority_primary {
+  &.state_inactive {
+    @include buttonColors($green-dark, $green-dark, $green-mint);
+    & svg {
+      fill: $green-mint;
+    }
+  }
+
+  &:hover,
+  &.state_hover {
+    @include buttonColors($green-mint, $green-dark, $green-dark);
+
+    & svg {
+      fill: $green-dark;
+    }
+  }
+
+  &:active,
+  &.state_active {
+    @include buttonColors($green-mint-10percent, $green-dark, $green-dark);
+
+    & svg {
+      fill: $green-dark;
+    }
+  }
+
+  &:disabled {
+    @include buttonColors($grey-light, $grey, $grey-medium);
+    & svg {
+      fill: $grey-medium;
+    }
+  }
+
+  &.state_selected {
+    @include buttonColors($green-mint-10percent, $green-dark, $green-dark);
+    & svg {
+      fill: $green-dark;
+    }
+  }
+
+  &:focus,
+  &.state_focused {
+    @include buttonColors($green-dark, $green-mint, $green-mint);
+    & svg {
+      fill: $green-mint;
+    }
+
+    outline: 0;
+    box-shadow: 0px 0px 0px 1px $grey-orange, 0px 0px 0px 2px $grey-orange;
+  }
+}
+
+/*
+*
+*  SECONDARY - COLORS and SVG's
+*
+*/
+
+.priority_secondary {
+  @include buttonColors($blue-sky-dark, $blue-sky-dark, $blue-sky);
+
+  & svg {
+    fill: $blue-sky;
+  }
+
+  &:hover,
+  &.state_hover {
+    @include buttonColors($blue-sky, $blue-sky-dark, $blue-sky-dark);
+
+    & svg {
+      fill: $blue-sky-dark;
+    }
+  }
+
+  &:active,
+  &.state_active {
+    @include buttonColors($blue-sky-10percent, $blue-sky-dark, $blue-sky-dark);
+    & svg {
+      fill: $blue-sky-dark;
+    }
+  }
+
+  &.state_selected {
+    @include buttonColors($blue-sky-10percent, $blue-sky-dark, $blue-sky-dark);
+    & svg {
+      fill: $blue-sky-dark;
+    }
+  }
+
+  &:disabled {
+    @include buttonColors($grey-light, $grey, $grey-medium);
+    & svg {
+      fill: $grey-medium;
+    }
+  }
+
+  &:focus,
+  &.state_focused {
+    @include buttonColors($blue-sky-dark, $blue-sky, $blue-sky);
+    & svg {
+      fill: $blue-sky;
+    }
+
+    outline: 0;
+    box-shadow: 0px 0px 0px 1px $grey-orange, 0px 0px 0px 2px $grey-orange;
+  }
+}
+
+/*
+*
+*  TERITARY - COLORS and SVG's
+*
+*/
+
+/*
+$--color-profile-red-light-extra: rgba(250, 219, 214, 1);
+$--color-profile-red-light: rgba(245, 182, 173, 1);
+$--color-profile-red: rgba(235, 110, 92, 1);
+$--color-profile-red-dark: rgba(117, 55, 46,1);
+$--color-profile-red-dark-extra: rgba(59, 27, 23, 1);
+*/
+
+.priority_tertiary {
+  @include buttonColors(
+    $--color-profile-red,
+    $--color-profile-red-dark,
+    $--color-profile-red-dark-extra
+  );
+  & svg {
+    fill: $--color-profile-red-dark-extra;
+  }
+
+  &:hover,
+  &.state_hover {
+    @include buttonColors(
+      $--color-profile-red-light,
+      $--color-profile-red,
+      $--color-profile-red-dark
+    );
+    & svg {
+      fill: $--color-profile-red-dark;
+    }
+  }
+
+  &:active,
+  &.state_active {
+    @include buttonColors(
+      $--color-profile-red-light-extra,
+      $--color-profile-red,
+      $--color-profile-red-dark
+    );
+    & svg {
+      fill: $--color-profile-red-dark;
+    }
+  }
+
+  &.state_selected {
+    @include buttonColors(
+      $--color-profile-red-light-extra,
+      $--color-profile-red,
+      $--color-profile-red-dark
+    );
+    & svg {
+      fill: $--color-profile-red-dark;
+    }
+  }
+
+  &:disabled {
+    @include buttonColors($grey-light, $grey, $grey-medium);
+    & svg {
+      fill: $grey-medium;
+    }
+  }
+
+  &:focus,
+  &.state_focused {
+    @include buttonColors(
+      $--color-profile-red,
+      $--color-profile-red-dark,
+      $--color-profile-red-dark-extra
+    );
+    & svg {
+      fill: $--color-profile-red-dark-extra;
+    }
+
+    outline: 0;
+    box-shadow: 0px 0px 0px 1px $grey-orange, 0px 0px 0px 2px $grey-orange;
+  }
+}
+
+/*
+*
+*  SMALL - PADDINGS & MARGINS
+*
+*/
+
+.btn.size_xsmall {
+  --top-bottom-padding: 0.1875rem;
+  --buttonSize: 1.5rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: $--border-radius-xsmall;
+
+  /* Small with icon left */
+  &.icon_left {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0;
+
+    svg {
+      margin-right: 0.4375rem;
+      margin-left: 0.125rem;
+    }
+  }
+  /* Small with icon right*/
+  &.icon_right {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 0rem var(--top-bottom-padding) 1rem;
+
+    svg {
+      margin-left: 0.4375rem;
+      margin-right: 0.125rem;
+    }
+  }
+
+  /* Small icon only */
+  &.icon_only {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 0 var(--top-bottom-padding) 0;
+
+    svg {
+      margin-left: 0.125rem;
+      margin-right: 0.125rem;
+    }
+  }
+}
+
+/*
+*
+*  SMALL - PADDINGS & MARGINS
+*
+*/
+
+.btn.size_small {
+  --top-bottom-padding: 0.4375rem;
+  --buttonSize: 2rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: $--border-radius-small;
+
+  /* Small with icon left */
+  &.icon_left {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.325rem;
+
+    svg {
+      margin-right: 0.4375rem;
+    }
+  }
+  /* Small with icon right*/
+  &.icon_right {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 0.325rem var(--top-bottom-padding) 1rem;
+
+    svg {
+      margin-left: 0.4375rem;
+    }
+  }
+
+  /* Small icon only */
+  &.icon_only {
+    --top-bottom-padding: 0.1875rem;
+
+    padding: var(--top-bottom-padding) 0.25rem var(--top-bottom-padding) 0.25rem;
+  }
+}
+
+/*
+*
+*  DEFAULT - PADDINGS & MARGINS
+*
+*/
+
+.btn.size_default {
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+
+  background-color: #111;
+
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: $--border-radius-default;
+
+  /* Default with icon left*/
+  &.icon_left {
+    --top-bottom-padding: 0.4375rem;
+    padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding)
+      0.625rem;
+
+    svg {
+      margin-right: 0.6875rem;
+    }
+  }
+  /* Default with icon right*/
+  &.icon_right {
+    --top-bottom-padding: 0.4375rem;
+    padding: var(--top-bottom-padding) 0.625rem var(--top-bottom-padding)
+      0.75rem;
+
+    svg {
+      margin-left: 0.6875rem;
+    }
+  }
+
+  /* Default icon only */
+  &.icon_only {
+    --top-bottom-padding: 0.4375rem;
+    padding: var(--top-bottom-padding) 0.5rem var(--top-bottom-padding) 0.5rem;
+  }
+}
+
+/*
+*
+*  LARGE - PADDINGS & MARGINS
+*
+*/
+
+.btn.size_large {
+  --top-bottom-padding: 0.9375rem;
+  --buttonSize: 3rem;
+  font-size: 1.125em;
+  line-height: 1.125rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: $--border-radius-large;
+
+  /* Large with icon left*/
+  &.icon_left {
+    --top-bottom-padding: 0.6875rem;
+    padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.375rem;
+
+    svg {
+      margin-right: 0.9375rem;
+      margin-left: 0.5rem;
+    }
+  }
+  /* Large with icon right*/
+  &.icon_right {
+    --top-bottom-padding: 0.6875rem;
+    padding: var(--top-bottom-padding) 0.375rem var(--top-bottom-padding) 1rem;
+
+    svg {
+      margin-right: 0.4375rem;
+      margin-left: 0.9375rem;
+    }
+  }
+
+  /* Large icon only */
+  &.icon_only {
+    --top-bottom-padding: 0.6875rem;
+    padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding) 0.75rem;
+  }
+}
+
+/*
+*
+*  X-LARGE - PADDINGS & MARGINS
+*
+*/
+
+.btn.size_xlarge {
+  border-radius: $--border-radius-xlarge;
+  border-width: 3px;
+  --top-bottom-padding: 1rem;
+  --buttonSize: 4rem;
+  font-size: 1.5em;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+
+  /* Large with icon left*/
+  &.icon_left {
+    --top-bottom-padding: 0.6875rem;
+    padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.375rem;
+
+    svg {
+      margin-right: 0.9375rem;
+      margin-left: 0.5rem;
+    }
+  }
+  /* Large with icon right*/
+  &.icon_right {
+    --top-bottom-padding: 0.6875rem;
+    padding: var(--top-bottom-padding) 0.375rem var(--top-bottom-padding) 1rem;
+
+    svg {
+      margin-right: 0.4375rem;
+      margin-left: 0.9375rem;
+    }
+  }
+
+  /* Large icon only */
+  &.icon_only {
+    padding: 0.9375rem;
+    --top-bottom-padding: 0.6875rem;
+  }
+}

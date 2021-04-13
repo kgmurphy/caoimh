@@ -1,0 +1,143 @@
+@import "variables.scss";
+
+body,
+html {
+  background-color: #000;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+* {
+  color: rgba(65, 255, 209, 1);
+}
+
+.main_section {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+#left {
+  padding: 4rem;
+  width: 30%;
+  min-width: 30%;
+  flex: 0;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.25)-extra 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.25)-extra 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.25)-extra 2px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.25)-extra 1px, transparent 1px);
+
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+
+  border-right: solid 1px rgba(65, 255, 209, 1);
+}
+
+/*-- dims --*/
+
+.dims {
+  width: 1rem;
+  min-height: 100%;
+
+  border: solid 1px hotpink;
+  border-left: 0;
+
+  margin-left: 1rem;
+}
+
+.tick {
+  border-top: solid 1px hotpink;
+  width: 2rem;
+}
+
+/*librarySection*/
+
+.library_section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.hideMe {
+  visibility: hidden;
+}
+.showMe {
+  visibility: visible;
+}
+
+ul li span {
+  color: var(--blue);
+}
+
+ul {
+  list-style: none;
+}
+
+/*-- typography --*/
+* {
+  font-family: "Monoid-Regular";
+}
+h1 {
+  font-size: 1.5em;
+  font-family: "Monoid-Regular";
+  line-height: 1.5rem;
+  color: hotpink;
+}
+
+p {
+  line-height: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+#left p {
+  line-height: 1.5rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+/*colorWell*/
+
+input[type="color"] {
+  width: 100%;
+  height: 3rem;
+}
+
+/*-- sliders --*/
+input[type="range"] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 100%;
+  background: transparent; /* Otherwise white in Chrome */
+}
+input[type="range"]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+.slider_wrap {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 1rem;
+
+  div {
+    display: flex;
+    flex-direction: row;
+
+    span {
+      width: 5.5rem;
+      margin-left: 1rem;
+    }
+  }
+}

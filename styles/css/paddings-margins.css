@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+/*
+x1 = 1 base units
+x2 = 2 base units
+...
+*/
+.padding-x1 {
+  padding: 0.5rem;
+}
+
+.padding-x2 {
+  padding: 1rem;
+}
+
+.margin-bottom-x1 {
+  margin-bottom: 0.5rem;
+}
+
+.margin-bottom-x2 {
+  margin-bottom: 1rem;
+}
+
+/*# sourceMappingURL=paddings-margins.css.map */

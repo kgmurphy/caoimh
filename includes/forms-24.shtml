@@ -1,0 +1,74 @@
+<form action="" class="dnb-form">
+  <fieldset>
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div><input type="text"></div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="radio" id="contactChoice1" name="contact" value="email"><label for="contactChoice1">Email</label>
+          <input type="radio" id="contactChoice2" name="contact" value="phone"><label for="contactChoice2">Phone</label>
+          <input type="radio" id="contactChoice3" name="contact" value="mail"><label for="contactChoice3">Mail</label>
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div>
+          <label for="Telefonnummer">Telefonnummer</label>
+        </div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="text">
+          <!-- <p class="dnb-form-sub-label">Thats wrong buddy you need to go back to the drawing board</p> -->
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <button class="dnb-button-default dnb-button-green"><span>Default</span></button> &nbsp; &nbsp;
+          <button class="dnb-button-default dnb-button-white"><span>Another</span></button>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</form>

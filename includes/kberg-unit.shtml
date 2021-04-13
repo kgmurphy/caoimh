@@ -1,0 +1,20 @@
+<div class="wrap">  
+  <div class="titleBar"><h1>Instrument name</h1></div>  
+    <div class="innerContent">
+    
+    <div class="infoWrap">
+    <p>Tile width x height => yellow border</p>
+    <div class="widthSpan"></div>
+    <div class="heightSpan"></div>
+    <div class="aspectSpan"></div>
+    <div class="availWidthSpan"></div>
+    <div class="availHeightSpan"></div>
+    <p>Padding left, right, bottom => blue hatch</p>
+    <div class="paddingFactor"></div>
+    <div class="paddingSize"></div>
+    <p>Padding top => green hatch</p>
+    <div class="paddingTopFactor"></div>
+    <div class="paddingTopSize"></div>
+  </div>
+</div>
+</div>

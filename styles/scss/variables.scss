@@ -1,0 +1,73 @@
+/* Base units */
+
+$base-unit: 0.5rem;
+
+/*Grønt Punkt colors*/
+$transparent: rgba(0, 0, 0, 0);
+$white: rgba (255, 255, 255, 1);
+$peach: rgba(252, 101, 84, 1);
+$green-mint: rgba(23, 228, 196, 1);
+$green-mint-10percent: rgba(231, 252, 249, 1);
+$green-mint-30percent: rgba(185, 246, 237, 1);
+$green-medium: rgba(0, 177, 149);
+$green-dark: rgba(0, 63, 76, 1);
+$green-spring: rgba(143, 194, 71, 1);
+$green-spring-10percent: rgba(143, 194, 71, 0.1);
+$green-extra-dark: rgba(0, 79, 71, 1);
+$green-super-dark: rgba(0, 59, 53, 1);
+$blue-sky: rgba(0, 213, 255, 1);
+$blue-sky-dark: rgba(0, 67, 89, 1);
+$blue-sky-10percent: rgba(229, 250, 255, 1);
+$blue-sky-shade-10: rgba(0, 191, 229, 1);
+$blue-sky-shade-20: rgba(0, 170, 204, 1);
+$blue-sky-shade-50: rgba(0, 106, 127, 1);
+$blue-sky-shade-60: rgba(0, 85, 102, 1);
+$blue-sky-shade-70: rgba(0, 63, 76, 1);
+$blue-sky-shade-80: rgba(0, 42, 51, 1);
+$grey: rgba(218, 218, 218, 1);
+$grey-light: rgba(236, 236, 236, 1);
+$grey-light-extra: rgba(225, 225, 225, 1);
+$grey-medium: rgba(141, 141, 141, 1);
+$grey-orange: rgba(232, 133, 41, 1);
+
+$--color-profile-red-light-extra: rgba(250, 219, 214, 1);
+$--color-profile-red-light: rgba(245, 182, 173, 1);
+$--color-profile-red: rgba(235, 110, 92, 1);
+$--color-profile-red-dark: rgba(117, 55, 46, 1);
+$--color-profile-red-dark-extra: rgba(59, 27, 23, 1);
+
+@mixin buttonColors($backgroundColor, $borderColor, $labelColor) {
+  background-color: $backgroundColor;
+  border-color: $borderColor;
+  color: $labelColor;
+}
+
+// Shadows
+
+@mixin box-shadow(
+  $left: 0,
+  $top: 2px,
+  $blur: 2px,
+  $color: rgba(0, 0, 0, 0.1),
+  $inset: ""
+) {
+  -webkit-box-shadow: $left $top $blur $color #{$inset};
+  -moz-box-shadow: $left $top $blur $color #{$inset};
+  box-shadow: $left $top $blur $color #{$inset};
+}
+
+/* Usage:
+@include box-shadow();
+*/
+
+// Rounded corners
+
+$--border-radius-xsmall: 1rem;
+$--border-radius-small: 1rem;
+$--border-radius-default: 0.25rem;
+$--border-radius-large: 1.5rem;
+$--border-radius-xlarge: 3rem;
+
+@mixin border-radius($base-unit) {
+  border-radius: $base-unit;
+}

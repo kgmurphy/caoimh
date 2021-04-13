@@ -1,0 +1,57 @@
+@import "variables.scss";
+@import "paddings-margins.scss";
+
+/* Headers */
+
+header {
+  h2 {
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  @extend .padding-x2;
+}
+
+$gridLine-light: rgba(255, 255, 255, 0.05);
+$gridLine-dark: rgba(255, 255, 255, 0.1);
+
+/* Dispålay boxes */
+
+.displaybox {
+  background-image:
+    /*Large horizontal*/ linear-gradient(
+      $gridLine-light 1px,
+      transparent 1px
+    ),
+    /*Large vertical*/
+      linear-gradient(90deg, $gridLine-light 1px, transparent 1px),
+    /*Small horizontal*/ linear-gradient($gridLine-light 1px, transparent 1px),
+    /*Small vertical*/
+      linear-gradient(90deg, $gridLine-light 1px, transparent 1px);
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+
+  p.score {
+    font-size: 5em;
+    line-height: 5rem;
+    text-align: center;
+    color: white;
+
+    /*Remove before production:*/
+    border-bottom: none;
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+
+  p.message {
+    text-align: center;
+
+    /*Remove before production:*/
+    border-bottom: none;
+    margin-bottom: 0;
+    background-color: transparent;
+  }
+}

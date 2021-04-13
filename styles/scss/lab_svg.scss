@@ -1,0 +1,74 @@
+:root {
+  --wrapper-border: 0px;
+}
+
+.path {
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: var(--dash-offset);
+  }
+}
+
+.wrapper {
+  border: solid var(--wrapper-border) #672b35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  display: block;
+}
+
+.path_1 {
+  stroke-dasharray: 10;
+  animation: dash_1 1s ease infinite;
+  animation-direction: alternate;
+  stroke-width: var(--stroke-width);
+}
+
+.path_2 {
+  stroke-dasharray: 20;
+  animation: dash_2 2s ease infinite;
+  animation-direction: alternate-reverse;
+  stroke-width: var(--stroke-width);
+}
+
+.path_3 {
+  stroke-dasharray: 30;
+  animation: dash_3 3s ease infinite;
+  animation-direction: alternate;
+  stroke-width: var(--stroke-width);
+}
+
+.path_4 {
+  stroke-dasharray: 40;
+  animation: dash_4 4s ease infinite;
+  animation-direction: alternate-reverse;
+  stroke-width: var(--stroke-width);
+}
+
+@keyframes dash_1 {
+  to {
+    stroke-dashoffset: var(--dash-offset);
+  }
+}
+
+@keyframes dash_2 {
+  to {
+    stroke-dashoffset: var(--dash-offset_2);
+  }
+}
+
+@keyframes dash_3 {
+  to {
+    stroke-dashoffset: var(--dash-offset_3);
+  }
+}
+
+@keyframes dash_3 {
+  to {
+    stroke-dashoffset: var(--dash-offset_4);
+  }
+}

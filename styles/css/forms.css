@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+input[type=text] {
+  color: #000;
+}
+
+input[type=radio] {
+  margin-right: 0.5em;
+  margin-left: 2em;
+  margin-top: 0.0625em;
+  vertical-align: top;
+}
+
+input[type=radio]:first-child {
+  margin-left: 0em;
+}
+
+label {
+  font-size: 1em;
+  /* 1 */
+  line-height: 1.5rem;
+  /* 2 */
+  position: relative;
+  /* 3 */
+  top: 1px;
+}
+
+/**
+* 1. Equal to 16px
+* 2. Equal to 24px
+* 3. Nudges the label down a pixel
+*/
+/**
+* 1. Equal to 16px
+* 2. Equal to 16px
+*/
+.gp-form-row {
+  display: flex;
+  margin-bottom: 1.5rem;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.05);
+  line-height: 1rem;
+  align-items: center;
+}
+
+.gp-form-row-lh-2rem {
+  line-height: 2rem;
+}
+
+.gp-form-row-lh-2-5rem {
+  line-height: 2.5rem;
+}
+
+.gp-form-row-lh-3rem {
+  line-height: 3rem;
+}
+
+.gp-form-col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gp-form-row .gp-form-col:first-child {
+  flex-basis: 25%;
+  text-align: right;
+  padding-right: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gp-form p {
+  margin-bottom: 0;
+}
+
+.selfie {
+  align-self: flex-start;
+  margin-top: 0.5em;
+}
+
+.gp-form-sub-label {
+  font-size: 0.75em;
+  line-height: 1rem;
+  color: red;
+}
+
+input[type=text] {
+  color: #000;
+  margin: 0;
+}
+
+.gp-input-small {
+  font-size: 1rem;
+  line-height: 1.755rem;
+  border-radius: 1rem;
+  min-width: 2.5rem;
+  border: solid 0.125rem #00b195;
+  padding: 0 1rem;
+}
+
+.gp-input-default {
+  font-size: 1em;
+  line-height: 2.255rem;
+  border-radius: 1.25rem;
+  min-width: 2.5rem;
+  border: solid 0.125rem #00b195;
+  padding: 0 1rem;
+}
+
+.gp-input-big {
+  font-size: 1em;
+  line-height: 2.6925rem;
+  border-radius: 1.5rem;
+  min-width: 2.5rem;
+  border: solid 0.125rem #00b195;
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=forms.css.map */

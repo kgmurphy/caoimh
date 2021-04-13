@@ -1,0 +1,40 @@
+body,
+html {
+  background-color: #000;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+.main_section {
+  height: calc(100vh - 56px);
+  margin-top: 56px;
+}
+
+.cell {
+  background: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(
+      45deg,
+      transparent 1px,
+      transparent 44px,
+      rgba(255, 255, 255, 0.1) 45px,
+      transparent 1px
+    ),
+    linear-gradient(
+      -45deg,
+      transparent 1px,
+      transparent 44px,
+      rgba(255, 255, 255, 0.1) 45px,
+      transparent 1px
+    );
+  background-size: 64px 64px, 64px 64px, 64px 64px, 64px 64px;
+  background-position: 0 0, -0.5px 0, 0 0, 0 0;
+}

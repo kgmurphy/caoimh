@@ -1,0 +1,219 @@
+<h2>Forms</h2>
+<p>The labels for the button rows below have their line-height set to the height of the highest element. So, the large buttons are 48px high, which means the labels have a line height of 3rem.</p>
+<form action="" class="dnb-form">
+  <fieldset>
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <!-- <input type="text"> -->
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="radio" id="contactChoice1" name="contact" value="email"><label for="contactChoice1">Emaily</label>
+          <input type="radio" id="contactChoice2" name="contact" value="phone"><label for="contactChoice2">Phoney</label>
+          <input type="radio" id="contactChoice3" name="contact" value="mail"><label for="contactChoice3">Maily</label>
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div>
+          <label for="Telefonnummer">Telefonnummer →</label>
+        </div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <!-- <p class="dnb-form-sub-label">Thats wrong buddy you need to go back to the drawing board</p> -->
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <button class="dnb-button dnb-button-default dnb-button-green">
+            <span class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+              <rect width="16" height="16" fill="#E10076" fill-rule="evenodd"/>
+            </svg>
+          </span>
+          <span class="text">
+            A buttony with an icon Åy
+          </span>
+        </button>
+          <br>
+          <button class="dnb-button dnb-button-default dnb-button-green">
+          <span class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+            <rect width="16" height="16" fill="#E10076" fill-rule="evenodd"/>
+          </svg>
+        </span>
+      </button>
+
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer" style="line-height: 3rem;">Telefonnummer →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <button class="dnb-button dnb-button-small dnb-button-green"><span>Smally</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-default dnb-button-green">
+          <span class="text">
+            Button with CSS adjustment Åy
+          </span>
+        </button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-default dnb-button-green dnb-button-emphasised"><span>Emphasisedy<span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-big dnb-button-green"><span>Big buttony</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-big dnb-button-green dnb-button-emphasised"><span>Big Emphasisedy</span></button>
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer" style="line-height: 3rem;">White buttons →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <button class="dnb-button dnb-button-small dnb-button-white"><span></span><span>Smally</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-default dnb-button-white"><span>Defaulty</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-default dnb-button-white dnb-button-emphasised"><span>Emphasisedy</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-big dnb-button-white"><span>Big buttony</span></button> &nbsp; &nbsp;
+          <button class="dnb-button dnb-button-big dnb-button-white dnb-button-emphasised"><span>Big Emphasisedy</span></button>
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+    <h4>The inputs have their border removed from their line-height - there's no padding involved</h4>
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col dnb-form-row-lh-2rem">
+        <div><label for="Telefonnummer">White buttons →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="text" class="dnb-input-small">
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+    <!--  Row -->
+    <div class="dnb-form-row dnb-form-row-lh-2-5rem">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">White buttons →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="text" class="dnb-input-default">
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+    <!--  Row -->
+    <div class="dnb-form-row dnb-form-row-lh-3rem">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <div><label for="Telefonnummer">White buttons →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <input type="text" class="dnb-input-big">
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col dnb-form-row-lh-2rem">
+        <div><label for="Telefonnummer">White buttons →</label></div>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div>
+          <button class="dnb-button dnb-button--primary dnb-button--icon-position-left
+              dnb-button--has-text dnb-button--has-icon dnb-button dnb-button-default dnb-button-green" type="button" title="This is a
+              button title">
+            <span class="text">Primary button with icon on left</span>
+            <span class="icon">
+              <span class="dnb-icon" role="img">
+                <svg viewbox="0 0 24 24" width="16" height="16">
+                  <path d="M14.5 6c.3 0 .5.1.7.3.4.4.4 1 0 1.4L10.9 12l4.3 4.3c.4.4.4 1 0
+                      1.4-.4.4-1 .4-1.4 0l-5-5c-.4-.4-.4-1 0-1.4l5-5c.2-.2.4-.3.7-.3z">
+                </svg>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+  </fieldset>
+</form>

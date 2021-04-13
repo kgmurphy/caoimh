@@ -1,0 +1,82 @@
+@import "variables.scss";
+
+table,
+thead,
+tbody,
+tr,
+th,
+td {
+  font-size: 1em;
+  line-height: 1rem;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+td h3 {
+  padding-top: 8rem;
+}
+
+td h4,
+td h5 {
+  padding-top: 1.5rem;
+}
+
+/*
+var tabletypes = {
+  table_default      : "table-default",
+  table_zebra        : "table-zebra",
+  table_list         : "table-list"
+}
+var dssizes = {
+  size_xsmall        : "x-small",
+  size_small         : "small",
+  size_default       : "default",
+  size_large         : "large",
+  size_xlarge        : "x-large"
+};
+*/
+
+.table_default {
+}
+
+.table_zebra {
+}
+
+.table_list {
+}
+
+.size_xsmall {
+  background-color: rgba(0, 0, 0, 0.1);
+  td {
+    padding: 0.5rem 1rem 0.4375rem 1rem;
+    border-bottom: solid 1px hotpink;
+  }
+}
+
+.size_small {
+  background-color: rgba(0, 0, 0, 0.2);
+  td {
+    padding: 1rem 2rem 0.9375rem 2rem;
+    border-bottom: solid 1px hotpink;
+  }
+}
+
+.size_default {
+  background-color: rgba(0, 0, 0, 0.4);
+  td {
+    padding: 1.5rem 3rem 1.4375rem 3rem;
+    border-bottom: solid 1px hotpink;
+  }
+}
+.size_large {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.size_xlarge {
+  background-color: rgba(0, 0, 0, 0.8);
+}

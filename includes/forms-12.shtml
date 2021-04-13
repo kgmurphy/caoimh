@@ -1,0 +1,79 @@
+<fieldset>
+  <form action="" class="dnb-form">
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <label for="Telefonnummer">Telefonnummer →</label>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <input type="text">
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <label for="Telefonnummer">Telefonnummer →</label>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <input type="text">
+      </div>
+    </div>
+    <!--  END Row -->
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <label for="Telefonnummer">Telefonnummer →</label>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <button class="dnb-button-default thin-border"><span>Default button</span></button> &nbsp; &nbsp; <button class="dnb-button-default thin-border"><span>Another!</span></button>
+      </div>
+    </div>
+    <!--  END Row -->
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <label for="Telefonnummer">Telefonnummer →</label>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <div> <button class="dnb-button-default thin-border"><span>Border 1px</span></button> &nbsp; &nbsp;
+        </div>
+      </div>
+    </div>
+
+
+    <!--  Row -->
+    <div class="dnb-form-row">
+      <!-- Row col 1-->
+      <div class="dnb-form-col">
+        <label for="Telefonnummer">Telefonnummer →</label>
+      </div>
+
+      <!-- Row col 2-->
+      <div class="dnb-form-col">
+        <button class="dnb-button-default thin-border"><span>Default button</span></button> &nbsp; &nbsp; <button class="dnb-button-default thin-border"><span>Another!</span></button>
+      </div>
+    </div>
+    <!--  END Row -->
+
+  </form>
+
+</fieldset>

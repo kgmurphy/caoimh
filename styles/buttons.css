@@ -1,0 +1,266 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+button,
+button span {
+  font-family: "Roboto-regular";
+  white-space: nowrap;
+}
+
+/* Generic button stuff */
+.gp-button {
+  --border-thickness: 0.125rem;
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+  --icon-size: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1em;
+  line-height: 1rem;
+  border: solid var(--border-thickness) #17e4c4;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+.gp-button span.icon svg {
+  height: var(--icon-size);
+}
+.gp-button:focus {
+  outline: 0;
+  box-shadow: 0px 0px 0px 1px #006a7f, 0px 0px 0px 2px #006a7f;
+}
+
+.gp-button {
+  /* ... */
+  /* all browsers: remove the default outline since
+      we are rolling our own focus styles */
+  outline: none;
+}
+
+/* Firefox: removes the inner border shown on focus */
+.gp-button::-moz-focus-inner {
+  border: none;
+}
+
+/* Button levels */
+/*
+*
+*  PRIMARY (default, hover, active, disabled)
+*
+*/
+.gp-button-primary {
+  background-color: #17e4c4;
+  border-color: #17e4c4;
+  color: black;
+}
+.gp-button-primary:hover {
+  background-color: #00b195;
+  border-color: #00b195;
+  color: white;
+}
+.gp-button-primary:active {
+  background-color: #006352;
+  border-color: #006352;
+  color: white;
+}
+.gp-button-primary:disabled {
+  background-color: #ececec;
+  border-color: #dadada;
+  color: #8d8d8d;
+}
+
+.gp-button-primary span > svg {
+  fill: black;
+}
+
+.gp-button-primary:hover span > svg {
+  fill: white;
+}
+
+/*
+*
+*  SECONDARY (default, hover, active, disabled)
+*
+*/
+.gp-button-secondary {
+  background-color: white;
+  border-color: #00b195;
+  color: black;
+}
+.gp-button-secondary:hover {
+  background-color: #e7fcf9;
+  border-color: #006352;
+  color: #004f47;
+}
+.gp-button-secondary:active {
+  background-color: #006352;
+  border-color: #006352;
+  color: white;
+}
+.gp-button-secondary:disabled {
+  background-color: #ececec;
+  border-color: #dadada;
+  color: #8d8d8d;
+}
+
+.gp-button-secondary span > svg {
+  fill: black;
+}
+
+.gp-button-secondary:active span > svg {
+  fill: white;
+}
+
+/*
+*
+*  TERITARY (default, hover, active, disabled)
+*
+*/
+.gp-button-tertiary {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: #00b195;
+}
+.gp-button-tertiary:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #00b195;
+  color: #00b195;
+}
+.gp-button-tertiary:active {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: #006352;
+  color: #006352;
+}
+.gp-button-tertiary:disabled {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  color: #8d8d8d;
+}
+
+.gp-button-tertiary span > svg {
+  fill: #00b195;
+}
+
+.gp-button-tertiary:active span > svg {
+  fill: #006352;
+}
+
+/*
+*
+*  SPECIAL (default, hover, active, disabled)
+*
+*/
+.gp-button-special {
+  background-color: green;
+  border-color: green;
+  color: hotpink;
+}
+.gp-button-special:hover {
+  background-color: pink;
+  border-color: green;
+  color: green;
+}
+.gp-button-special:active {
+  background-color: black;
+  border-color: yellow;
+  color: white;
+}
+.gp-button-special:disabled {
+  background-color: grey;
+  border-color: grey;
+  color: black;
+}
+
+.gp-button-small {
+  --top-bottom-padding: 0.4375rem;
+  --buttonSize: 2rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1rem;
+  /* Small with icon left */
+  /* Small with icon right*/
+  /* Small icon only */
+}
+.gp-button-small.gp-button-icon-left {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.325rem;
+}
+.gp-button-small.gp-button-icon-left span.icon svg {
+  margin-right: 0.4375rem;
+}
+.gp-button-small.gp-button-icon-right {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0.325rem var(--top-bottom-padding) 1rem;
+}
+.gp-button-small.gp-button-icon-right span.icon svg {
+  margin-left: 0.4375rem;
+}
+.gp-button-small.gp-button-icon-only {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0.25rem var(--top-bottom-padding) 0.25rem;
+}
+
+.gp-button-default {
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1.25rem;
+  /* Default with icon left*/
+  /* Default with icon right*/
+  /* Default icon only */
+}
+.gp-button-default.gp-button-icon-left {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding) 0.625rem;
+}
+.gp-button-default.gp-button-icon-left span.icon svg {
+  margin-right: 0.6875rem;
+}
+.gp-button-default.gp-button-icon-right {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.625rem var(--top-bottom-padding) 0.75rem;
+}
+.gp-button-default.gp-button-icon-right span.icon svg {
+  margin-left: 0.6875rem;
+}
+.gp-button-default.gp-button-icon-only {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.5rem var(--top-bottom-padding) 0.5rem;
+}
+
+.gp-button-large {
+  --top-bottom-padding: 0.9375rem;
+  --buttonSize: 3rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1.5rem;
+  /* Large with icon left*/
+  /* Large with icon right*/
+  /* Large icon only */
+}
+.gp-button-large.gp-button-icon-left {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.375rem;
+}
+.gp-button-large.gp-button-icon-left span.icon svg {
+  margin-right: 0.9375rem;
+  margin-left: 0.5rem;
+}
+.gp-button-large.gp-button-icon-right {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 0.375rem var(--top-bottom-padding) 1rem;
+}
+.gp-button-large.gp-button-icon-right span.icon svg {
+  margin-right: 0.4375rem;
+  margin-left: 0.9375rem;
+}
+.gp-button-large.gp-button-icon-only {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding) 0.75rem;
+}
+
+/*# sourceMappingURL=buttons.css.map */

@@ -1,0 +1,61 @@
+:root {
+  //--bar-width: 100px;
+}
+
+.bars {
+  display: flex;
+  flex-direction: row;
+}
+
+.bar-1 {
+  height: 4px;
+  width: 8px;
+  background-color: rgba(82, 255, 213, 0.8);
+  animation: sizeIt 2s ease-out alternate infinite;
+  transform-origin: bottom left;
+}
+
+.bar-2 {
+  height: 4px;
+  width: 8px;
+  background-color: rgba(182, 55, 213, 0.8);
+  animation: sizeIt2 0.5s ease-out alternate infinite;
+  transform-origin: bottom left;
+}
+
+.box {
+  width: 535px;
+  height: 535px;
+  background: url("../../svg/dial.svg");
+  margin-right: 1px;
+  animation: spinIt 2s ease-out alternate infinite;
+}
+
+@keyframes spinIt {
+  to {
+    transform: rotate(var(--angle-to));
+  }
+}
+
+@keyframes sizeIt {
+  to {
+    transform: scaleY(var(--bar-width));
+  }
+}
+
+@keyframes sizeIt2 {
+  to {
+    transform: scaleY(var(--bar-width));
+  }
+}
+
+span p {
+  font-size: 0.875em;
+  line-height: 0.875rem;
+}
+
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

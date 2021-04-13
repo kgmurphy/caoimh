@@ -1,0 +1,103 @@
+[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 24px 0;
+  width: 100%;
+}
+[type=range]::-moz-focus-outer {
+  border: 0;
+}
+[type=range]:focus {
+  outline: 0;
+}
+[type=range]:focus::-webkit-slider-runnable-track {
+  background: #474b55;
+}
+[type=range]:focus::-ms-fill-lower {
+  background: #3b3f47;
+}
+[type=range]:focus::-ms-fill-upper {
+  background: #474b55;
+}
+[type=range]::-webkit-slider-runnable-track {
+  cursor: default;
+  height: 6px;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: #3b3f47;
+  border: 1px solid #cfd8dc;
+  border-radius: 1px;
+}
+[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+  background: #3b3f47;
+  border: 1px solid purple;
+  border-radius: 24px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 48px;
+  width: 48px;
+  -webkit-appearance: none;
+  margin-top: -22px;
+}
+[type=range]::-moz-range-track {
+  cursor: default;
+  height: 6px;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: #3b3f47;
+  border: 1px solid #cfd8dc;
+  border-radius: 1px;
+  height: 3px;
+}
+[type=range]::-moz-range-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+  background: #3b3f47;
+  border: 1px solid purple;
+  border-radius: 24px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 48px;
+  width: 48px;
+}
+[type=range]::-ms-track {
+  cursor: default;
+  height: 6px;
+  transition: all 0.2s ease;
+  width: 100%;
+  background: transparent;
+  border-color: transparent;
+  border-width: 24px 0;
+  color: transparent;
+}
+[type=range]::-ms-fill-lower {
+  box-shadow: 0px 0px 0px black, 0 0 0px #0d0d0d;
+  background: #2f3339;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+}
+[type=range]::-ms-fill-upper {
+  background: #3b3f47;
+  border: 1px solid #cfd8dc;
+  border-radius: 2px;
+}
+[type=range]::-ms-thumb {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), 0 0 1px rgba(13, 13, 13, 0.2);
+  background: #3b3f47;
+  border: 1px solid purple;
+  border-radius: 24px;
+  box-sizing: border-box;
+  cursor: default;
+  height: 48px;
+  width: 48px;
+  margin-top: 1.5px;
+}
+[type=range]:disabled::-webkit-slider-thumb, [type=range]:disabled::-moz-range-thumb, [type=range]:disabled::-ms-thumb, [type=range]:disabled::-webkit-slider-runnable-track, [type=range]:disabled::-ms-fill-lower, [type=range]:disabled::-ms-fill-upper {
+  cursor: move;
+  /* fallback if grab cursor is unsupported */
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+/*# sourceMappingURL=slider.css.map */

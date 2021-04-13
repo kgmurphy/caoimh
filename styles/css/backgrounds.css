@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+.background-white {
+  background-color: #fff;
+}
+
+.background-green-mint {
+  background-color: #17e4c4;
+}
+
+.background-green-mint-10percent {
+  background-color: #e7fcf9;
+}
+
+.background-green-mint-30percent {
+  background-color: #b9f6ed;
+}
+
+.background-blue-sky-shade-50 {
+  background-color: #006a7f;
+}
+
+.background-blue-sky-shade-60 {
+  background-color: #005566;
+}
+
+.background-blue-sky-shade-70 {
+  background-color: #003f4c;
+}
+
+.background-blue-sky-shade-80 {
+  background-color: #002a33;
+}
+
+/*# sourceMappingURL=backgrounds.css.map */

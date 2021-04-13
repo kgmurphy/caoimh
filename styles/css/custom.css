@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+.card_skin {
+  flex-grow: 1;
+  flex-basis: 100px;
+  max-width: 100%;
+}
+@media (min-width: 200px) {
+  .card_skin {
+    max-width: 50%;
+  }
+}
+@media (min-width: 300px) {
+  .card_skin {
+    max-width: 33.3333333333%;
+  }
+}
+@media (min-width: 400px) {
+  .card_skin {
+    max-width: 25%;
+  }
+}
+@media (min-width: 500px) {
+  .card_skin {
+    max-width: 20%;
+  }
+}
+@media (min-width: 600px) {
+  .card_skin {
+    max-width: 16.6666666667%;
+  }
+}
+@media (min-width: 700px) {
+  .card_skin {
+    max-width: 14.2857142857%;
+  }
+}
+@media (min-width: 800px) {
+  .card_skin {
+    max-width: 12.5%;
+  }
+}
+@media (min-width: 900px) {
+  .card_skin {
+    max-width: 11.1111111111%;
+  }
+}
+@media (min-width: 1000px) {
+  .card_skin {
+    max-width: 10%;
+  }
+}
+@media (min-width: 1100px) {
+  .card_skin {
+    max-width: 9.0909090909%;
+  }
+}
+@media (min-width: 1200px) {
+  .card_skin {
+    max-width: 8.3333333333%;
+  }
+}
+@media (min-width: 1300px) {
+  .card_skin {
+    max-width: 7.6923076923%;
+  }
+}
+@media (min-width: 1400px) {
+  .card_skin {
+    max-width: 7.1428571429%;
+  }
+}
+@media (min-width: 1500px) {
+  .card_skin {
+    max-width: 6.6666666667%;
+  }
+}
+@media (min-width: 1600px) {
+  .card_skin {
+    max-width: 6.25%;
+  }
+}
+@media (min-width: 1700px) {
+  .card_skin {
+    max-width: 5.8823529412%;
+  }
+}
+@media (min-width: 1800px) {
+  .card_skin {
+    max-width: 5.5555555556%;
+  }
+}
+@media (min-width: 1900px) {
+  .card_skin {
+    max-width: 5.2631578947%;
+  }
+}
+@media (min-width: 2000px) {
+  .card_skin {
+    max-width: 5%;
+  }
+}
+@media (min-width: 2100px) {
+  .card_skin {
+    max-width: 4.7619047619%;
+  }
+}
+
+body,
+html {
+  background-color: #fff;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+p {
+  border-bottom: 1.5rem solid #e7fcf9;
+}
+
+* {
+  font-family: "IBMPlex-Regular";
+}
+
+.system,
+.system a {
+  font-family: "IIBMPlex-Regular";
+  text-transform: uppercase;
+  color: #006a7f;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+.system a {
+  text-decoration: none;
+}
+
+span.highlight-yellow {
+  font-family: "FiraCode-Light";
+  color: #17e4c4;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-pink {
+  font-family: "FiraCode-Light";
+  color: #006a7f;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-orange {
+  font-family: "FiraCode-Light";
+  color: #17e4c4;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-blue {
+  font-family: "FiraCode-Light";
+  color: #00d5ff;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-green {
+  font-family: "FiraCode-Light";
+  color: #00b195;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-green-light {
+  font-family: "FiraCode-Light";
+  color: #00b195;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+hr {
+  background-color: #4bbed2;
+}
+
+br {
+  line-height: 16px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+fieldset {
+  margin-bottom: 4rem;
+}
+
+figure {
+  padding: 4rem;
+  border: solid 0.5rem #000;
+}
+
+.block-wrap {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.sample {
+  width: 100%;
+  align-self: center;
+  padding-top: 1rem;
+}
+
+.moustache {
+  border: solid 1px #00b195;
+  border-left: 0;
+  min-width: 1em;
+  margin-left: 1rem;
+}
+
+.dash {
+  background-color: #00b195;
+  align-self: center;
+  min-width: 1em;
+  height: 1px;
+}
+
+.description {
+  align-self: center;
+}
+.description p {
+  margin: 1rem;
+  background: transparent;
+}
+
+.overlay {
+  border-top: solid 1px hotpink;
+  border-bottom: solid 1px hotpink;
+  width: 100%;
+  position: fixed;
+  height: 1rem;
+  top: 50vh;
+  display: none;
+}
+
+.c4,
+.c6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c7 {
+  width: 8rem;
+}
+
+/*c8 has the specs - need to lay it out horizontally*/
+.c8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.specs {
+  border-left: solid 1px hotpink;
+  width: 50%;
+}
+
+.specs {
+  margin-left: 2rem;
+  line-height: 1.5rem;
+  font-size: 1em;
+}
+
+td {
+  flex: 1;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=custom.css.map */

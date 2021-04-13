@@ -1,0 +1,783 @@
+<svg width="682" height="682" viewBox="0 0 682 682" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M341 92L341 100" stroke="#999999"/>
+<path d="M92 341H100" stroke="#999999"/>
+<path d="M582 341H590" stroke="#999999"/>
+<g clip-path="url(#clip1)">
+<path d="M336.655 92.0369L336.795 100.036" stroke="#999999"/>
+<path d="M92.0388 345.345L100.038 345.205" stroke="#999999"/>
+<path d="M581.964 336.793L589.963 336.653" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip2)">
+<path d="M332.311 92.1521L332.59 100.147" stroke="#999999"/>
+<path d="M92.1526 349.69L100.148 349.411" stroke="#999999"/>
+<path d="M581.854 332.59L589.849 332.31" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip3)">
+<path d="M327.968 92.3401L328.387 100.329" stroke="#999999"/>
+<path d="M92.341 354.031L100.33 353.612" stroke="#999999"/>
+<path d="M581.669 328.386L589.658 327.967" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip4)">
+<path d="M323.631 92.6073L324.189 100.588" stroke="#999999"/>
+<path d="M92.6069 358.37L100.587 357.812" stroke="#999999"/>
+<path d="M581.413 324.189L589.394 323.631" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip5)">
+<path d="M319.298 92.9484L319.996 100.918" stroke="#999999"/>
+<path d="M92.9477 362.703L100.917 362.005" stroke="#999999"/>
+<path d="M581.083 319.996L589.053 319.299" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip6)">
+<path d="M314.973 93.3656L315.809 101.322" stroke="#999999"/>
+<path d="M93.3646 367.029L101.321 366.193" stroke="#999999"/>
+<path d="M580.68 315.81L588.637 314.974" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip7)">
+<path d="M310.655 93.8573L311.63 101.798" stroke="#999999"/>
+<path d="M93.8567 371.347L101.797 370.372" stroke="#999999"/>
+<path d="M580.204 311.631L588.145 310.656" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip8)">
+<path d="M306.346 94.4218L307.459 102.344" stroke="#999999"/>
+<path d="M94.423 375.653L102.345 374.539" stroke="#999999"/>
+<path d="M579.654 307.458L587.577 306.344" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip9)">
+<path d="M302.047 95.0655L303.298 102.967" stroke="#999999"/>
+<path d="M95.0647 379.952L102.966 378.701" stroke="#999999"/>
+<path d="M579.032 303.299L586.934 302.048" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip10)">
+<path d="M297.762 95.7823L299.151 103.661" stroke="#999999"/>
+<path d="M95.7831 384.238L103.662 382.849" stroke="#999999"/>
+<path d="M578.339 299.15L586.217 297.761" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip11)">
+<path d="M293.488 96.5746L295.014 104.428" stroke="#999999"/>
+<path d="M96.5741 388.511L104.427 386.985" stroke="#999999"/>
+<path d="M577.571 295.015L585.424 293.488" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip12)">
+<path d="M289.23 97.4407L290.893 105.266" stroke="#999999"/>
+<path d="M97.4413 392.769L105.267 391.106" stroke="#999999"/>
+<path d="M576.734 290.893L584.559 289.229" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip13)">
+<path d="M284.987 98.3822L286.786 106.177" stroke="#999999"/>
+<path d="M98.3815 397.013L106.176 395.214" stroke="#999999"/>
+<path d="M575.823 286.787L583.618 284.988" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip14)">
+<path d="M280.762 99.3975L282.698 107.16" stroke="#999999"/>
+<path d="M99.3972 401.24L107.16 399.304" stroke="#999999"/>
+<path d="M574.842 282.698L582.604 280.763" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip15)">
+<path d="M276.554 100.485L278.625 108.212" stroke="#999999"/>
+<path d="M100.485 405.446L108.212 403.376" stroke="#999999"/>
+<path d="M573.788 278.625L581.516 276.554" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip16)">
+<path d="M272.366 101.646L274.571 109.336" stroke="#999999"/>
+<path d="M101.646 409.633L109.336 407.428" stroke="#999999"/>
+<path d="M572.664 274.571L580.354 272.366" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip17)">
+<path d="M268.2 102.882L270.539 110.532" stroke="#999999"/>
+<path d="M102.881 413.803L110.531 411.464" stroke="#999999"/>
+<path d="M571.47 270.54L579.121 268.201" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip18)">
+<path d="M264.054 104.188L266.526 111.797" stroke="#999999"/>
+<path d="M104.186 417.946L111.794 415.474" stroke="#999999"/>
+<path d="M570.204 266.528L577.812 264.056" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip19)">
+<path d="M259.934 105.566L262.538 113.13" stroke="#999999"/>
+<path d="M105.566 422.066L113.13 419.462" stroke="#999999"/>
+<path d="M568.87 262.538L576.434 259.933" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip20)">
+<path d="M255.837 107.016L258.574 114.534" stroke="#999999"/>
+<path d="M107.017 426.163L114.534 423.426" stroke="#999999"/>
+<path d="M567.466 258.573L574.984 255.837" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip21)">
+<path d="M251.767 108.538L254.634 116.007" stroke="#999999"/>
+<path d="M108.539 430.233L116.008 427.366" stroke="#999999"/>
+<path d="M565.993 254.633L573.462 251.766" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip22)">
+<path d="M247.723 110.133L250.72 117.55" stroke="#999999"/>
+<path d="M110.132 434.278L117.549 431.282" stroke="#999999"/>
+<path d="M564.452 250.721L571.869 247.724" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip23)">
+<path d="M243.708 111.794L246.834 119.158" stroke="#999999"/>
+<path d="M111.795 438.291L119.159 435.165" stroke="#999999"/>
+<path d="M562.842 246.833L570.206 243.707" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip24)">
+<path d="M239.722 113.527L242.975 120.835" stroke="#999999"/>
+<path d="M113.526 442.277L120.835 439.023" stroke="#999999"/>
+<path d="M561.163 242.976L568.472 239.722" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip25)">
+<path d="M235.767 115.329L239.148 122.58" stroke="#999999"/>
+<path d="M115.328 446.232L122.579 442.851" stroke="#999999"/>
+<path d="M559.419 239.149L566.67 235.768" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip26)">
+<path d="M231.845 117.199L235.352 124.39" stroke="#999999"/>
+<path d="M117.199 450.153L124.39 446.646" stroke="#999999"/>
+<path d="M557.609 235.351L564.799 231.845" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip27)">
+<path d="M227.956 119.138L231.588 126.266" stroke="#999999"/>
+<path d="M119.14 454.043L126.268 450.411" stroke="#999999"/>
+<path d="M555.733 231.587L562.861 227.955" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip28)">
+<path d="M224.102 121.148L227.858 128.211" stroke="#999999"/>
+<path d="M121.147 457.9L128.21 454.144" stroke="#999999"/>
+<path d="M553.791 227.859L560.854 224.103" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip29)">
+<path d="M220.281 123.221L224.16 130.218" stroke="#999999"/>
+<path d="M123.219 461.719L130.215 457.841" stroke="#999999"/>
+<path d="M551.782 224.163L558.779 220.284" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip30)">
+<path d="M216.5 125.36L220.5 132.289" stroke="#999999"/>
+<path d="M125.36 465.501L132.288 461.501" stroke="#999999"/>
+<path d="M549.712 220.501L556.64 216.501" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip31)">
+<path d="M212.755 127.566L216.876 134.424" stroke="#999999"/>
+<path d="M547.577 216.877L554.434 212.756" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip32)">
+<path d="M209.049 129.836L213.289 136.621" stroke="#999999"/>
+<path d="M545.379 213.29L552.163 209.05" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip33)">
+<path d="M205.384 132.172L209.741 138.882" stroke="#999999"/>
+<path d="M543.118 209.743L549.828 205.386" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip34)">
+<path d="M201.76 134.572L206.233 141.204" stroke="#999999"/>
+<path d="M540.797 206.236L547.429 201.763" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip35)">
+<path d="M198.179 137.031L202.767 143.584" stroke="#999999"/>
+<path d="M538.415 202.768L544.968 198.179" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip36)">
+<path d="M194.641 139.556L199.343 146.028" stroke="#999999"/>
+<path d="M535.973 199.345L542.445 194.643" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip37)">
+<path d="M191.147 142.14L195.962 148.529" stroke="#999999"/>
+<path d="M533.47 195.963L539.859 191.149" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip38)">
+<path d="M187.699 144.785L192.624 151.089" stroke="#999999"/>
+<path d="M530.909 192.625L537.213 187.7" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip39)">
+<path d="M184.299 147.491L189.334 153.708" stroke="#999999"/>
+<path d="M528.292 189.334L534.509 184.3" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip40)">
+<path d="M180.946 150.256L186.088 156.384" stroke="#999999"/>
+<path d="M525.617 186.089L531.745 180.947" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip41)">
+<path d="M177.642 153.076L182.89 159.114" stroke="#999999"/>
+<path d="M522.885 182.889L528.923 177.64" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip42)">
+<path d="M174.386 155.958L179.739 161.904" stroke="#999999"/>
+<path d="M520.097 179.741L526.042 174.388" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip43)">
+<path d="M171.181 158.895L176.637 164.745" stroke="#999999"/>
+<path d="M517.255 176.64L523.106 171.184" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip44)">
+<path d="M168.03 161.886L173.587 167.641" stroke="#999999"/>
+<path d="M514.361 173.589L520.115 168.032" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip45)">
+<path d="M164.929 164.93L170.586 170.587" stroke="#999999"/>
+<path d="M511.412 170.587L517.069 164.93" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip46)">
+<path d="M161.884 168.028L167.639 173.585" stroke="#999999"/>
+<path d="M508.412 167.637L513.969 161.882" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip47)">
+<path d="M158.892 171.181L164.743 176.637" stroke="#999999"/>
+<path d="M505.36 164.742L510.816 158.891" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip48)">
+<path d="M155.956 174.385L161.901 179.738" stroke="#999999"/>
+<path d="M502.26 161.9L507.613 155.955" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip49)">
+<path d="M153.077 177.642L159.115 182.89" stroke="#999999"/>
+<path d="M499.11 159.115L504.359 153.078" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip50)">
+<path d="M150.255 180.945L156.384 186.087" stroke="#999999"/>
+<path d="M495.912 156.382L501.054 150.254" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip51)">
+<path d="M147.491 184.299L153.708 189.333" stroke="#999999"/>
+<path d="M492.667 153.707L497.701 147.49" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip52)">
+<path d="M144.784 187.701L151.088 192.626" stroke="#999999"/>
+<path d="M489.373 151.09L494.299 144.786" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip53)">
+<path d="M142.139 191.148L148.528 195.962" stroke="#999999"/>
+<path d="M486.037 148.528L490.851 142.139" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip54)">
+<path d="M139.555 194.64L146.027 199.342" stroke="#999999"/>
+<path d="M482.656 146.025L487.358 139.553" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip55)">
+<path d="M137.03 198.18L143.583 202.768" stroke="#999999"/>
+<path d="M479.231 143.585L483.82 137.031" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip56)">
+<path d="M134.57 201.759L141.202 206.233" stroke="#999999"/>
+<path d="M475.766 141.2L480.239 134.568" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip57)">
+<path d="M132.171 205.383L138.881 209.74" stroke="#999999"/>
+<path d="M472.258 138.879L476.615 132.169" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip58)">
+<path d="M129.835 209.05L136.619 213.289" stroke="#999999"/>
+<path d="M468.709 136.62L472.949 129.836" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip59)">
+<path d="M127.564 212.755L134.422 216.875" stroke="#999999"/>
+<path d="M465.123 134.422L469.244 127.564" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip60)">
+<path d="M125.359 216.499L132.287 220.499" stroke="#999999"/>
+<path d="M461.499 132.287L465.499 125.359" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip61)">
+<path d="M123.218 220.28L130.215 224.159" stroke="#999999"/>
+<path d="M551.782 457.837L558.779 461.716" stroke="#999999"/>
+<path d="M457.838 130.215L461.716 123.218" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip62)">
+<path d="M121.146 224.1L128.21 227.855" stroke="#999999"/>
+<path d="M553.791 454.141L560.854 457.896" stroke="#999999"/>
+<path d="M454.143 128.208L457.899 121.144" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip63)">
+<path d="M119.139 227.957L126.267 231.589" stroke="#999999"/>
+<path d="M555.733 450.412L562.861 454.044" stroke="#999999"/>
+<path d="M450.412 126.268L454.044 119.14" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip64)">
+<path d="M117.199 231.846L124.39 235.353" stroke="#999999"/>
+<path d="M557.608 446.648L564.799 450.155" stroke="#999999"/>
+<path d="M446.647 124.391L450.153 117.201" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip65)">
+<path d="M115.328 235.768L122.579 239.149" stroke="#999999"/>
+<path d="M559.419 442.851L566.669 446.232" stroke="#999999"/>
+<path d="M442.85 122.58L446.231 115.329" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip66)">
+<path d="M113.526 239.723L120.834 242.977" stroke="#999999"/>
+<path d="M561.163 439.024L568.472 442.278" stroke="#999999"/>
+<path d="M439.022 120.836L442.276 113.528" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip67)">
+<path d="M111.794 243.709L119.158 246.835" stroke="#999999"/>
+<path d="M562.842 435.167L570.206 438.293" stroke="#999999"/>
+<path d="M435.166 119.159L438.292 111.795" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip68)">
+<path d="M110.131 247.722L117.549 250.719" stroke="#999999"/>
+<path d="M564.451 431.279L571.869 434.276" stroke="#999999"/>
+<path d="M431.28 117.548L434.277 110.13" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip69)">
+<path d="M108.539 251.767L116.007 254.634" stroke="#999999"/>
+<path d="M565.993 427.367L573.462 430.234" stroke="#999999"/>
+<path d="M427.367 116.008L430.234 108.539" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip70)">
+<path d="M107.016 255.837L114.534 258.573" stroke="#999999"/>
+<path d="M567.465 423.427L574.983 426.163" stroke="#999999"/>
+<path d="M423.426 114.534L426.162 107.017" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip71)">
+<path d="M105.565 259.934L113.129 262.538" stroke="#999999"/>
+<path d="M568.869 419.462L576.434 422.067" stroke="#999999"/>
+<path d="M419.461 113.13L422.066 105.566" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip72)">
+<path d="M104.187 264.054L111.796 266.526" stroke="#999999"/>
+<path d="M570.205 415.472L577.813 417.944" stroke="#999999"/>
+<path d="M415.474 111.794L417.946 104.186" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip73)">
+<path d="M102.88 268.197L110.531 270.536" stroke="#999999"/>
+<path d="M571.47 411.46L579.12 413.799" stroke="#999999"/>
+<path d="M411.462 110.529L413.801 102.878" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip74)">
+<path d="M101.645 272.367L109.335 274.572" stroke="#999999"/>
+<path d="M572.664 407.429L580.354 409.634" stroke="#999999"/>
+<path d="M407.428 109.336L409.633 101.646" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip75)">
+<path d="M100.484 276.554L108.212 278.624" stroke="#999999"/>
+<path d="M573.788 403.375L581.515 405.446" stroke="#999999"/>
+<path d="M403.375 108.212L405.446 100.484" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip76)">
+<path d="M99.3962 280.76L107.159 282.696" stroke="#999999"/>
+<path d="M574.841 399.302L582.603 401.238" stroke="#999999"/>
+<path d="M399.303 107.158L401.238 99.3953" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip77)">
+<path d="M98.3824 284.987L106.177 286.786" stroke="#999999"/>
+<path d="M575.824 395.213L583.619 397.012" stroke="#999999"/>
+<path d="M395.214 106.176L397.013 98.3815" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip78)">
+<path d="M97.4404 289.23L105.266 290.894" stroke="#999999"/>
+<path d="M576.733 391.107L584.558 392.771" stroke="#999999"/>
+<path d="M391.106 105.267L392.769 97.4417" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip79)">
+<path d="M96.5752 293.488L104.428 295.015" stroke="#999999"/>
+<path d="M577.573 386.985L585.426 388.511" stroke="#999999"/>
+<path d="M386.985 104.428L388.512 96.5747" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip80)">
+<path d="M95.7817 297.762L103.66 299.151" stroke="#999999"/>
+<path d="M578.337 382.85L586.216 384.239" stroke="#999999"/>
+<path d="M382.848 103.662L384.237 95.7836" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip81)">
+<path d="M95.0658 302.048L102.967 303.299" stroke="#999999"/>
+<path d="M579.033 378.701L586.935 379.952" stroke="#999999"/>
+<path d="M378.701 102.967L379.952 95.0656" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip82)">
+<path d="M94.4221 306.347L102.344 307.461" stroke="#999999"/>
+<path d="M579.653 374.542L587.576 375.655" stroke="#999999"/>
+<path d="M374.54 102.347L375.653 94.4245" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip83)">
+<path d="M93.8557 310.653L101.796 311.628" stroke="#999999"/>
+<path d="M580.203 370.369L588.144 371.344" stroke="#999999"/>
+<path d="M370.37 101.795L371.345 93.8546" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip84)">
+<path d="M93.3636 314.971L101.32 315.807" stroke="#999999"/>
+<path d="M580.679 366.19L588.636 367.026" stroke="#999999"/>
+<path d="M366.191 101.319L367.027 93.3624" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip85)">
+<path d="M92.9474 319.297L100.917 319.994" stroke="#999999"/>
+<path d="M581.083 362.003L589.052 362.701" stroke="#999999"/>
+<path d="M362.004 100.916L362.702 92.9464" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip86)">
+<path d="M92.6066 323.63L100.587 324.188" stroke="#999999"/>
+<path d="M581.413 357.811L589.394 358.369" stroke="#999999"/>
+<path d="M357.811 100.586L358.369 92.6059" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip87)">
+<path d="M92.3407 327.97L100.33 328.388" stroke="#999999"/>
+<path d="M581.669 353.614L589.658 354.033" stroke="#999999"/>
+<path d="M353.612 100.331L354.031 92.3424" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip88)">
+<path d="M92.1524 332.31L100.148 332.589" stroke="#999999"/>
+<path d="M581.854 349.411L589.849 349.69" stroke="#999999"/>
+<path d="M349.412 100.147L349.691 92.1514" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip89)">
+<path d="M92.0385 336.655L100.037 336.795" stroke="#999999"/>
+<path d="M581.964 345.207L589.963 345.347" stroke="#999999"/>
+<path d="M345.207 100.038L345.346 92.0388" stroke="#999999"/>
+</g>
+</g>
+<g clip-path="url(#clip90)">
+<path d="M341 92L341 108" stroke="#999999"/>
+<path d="M92 341L108 341" stroke="#999999"/>
+<path d="M574 341H590" stroke="#999999"/>
+<g clip-path="url(#clip91)">
+<path d="M297.762 95.7823L300.54 111.539" stroke="#999999"/>
+<path d="M95.7831 384.238L111.54 381.459" stroke="#999999"/>
+<path d="M570.46 300.539L586.217 297.761" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip92)">
+<path d="M255.837 107.016L261.309 122.051" stroke="#999999"/>
+<path d="M107.016 426.163L122.051 420.69" stroke="#999999"/>
+<path d="M559.948 261.309L574.983 255.837" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip93)">
+<path d="M216.5 125.36L224.5 139.217" stroke="#999999"/>
+<path d="M125.36 465.501L139.216 457.501" stroke="#999999"/>
+<path d="M542.784 224.501L556.64 216.501" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip94)">
+<path d="M180.946 150.256L191.23 162.512" stroke="#999999"/>
+<path d="M519.488 191.231L531.745 180.947" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip95)">
+<path d="M150.255 180.945L162.512 191.229" stroke="#999999"/>
+<path d="M490.77 162.51L501.054 150.254" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip96)">
+<path d="M125.359 216.499L139.216 224.499" stroke="#999999"/>
+<path d="M542.783 457.499L556.64 465.499" stroke="#999999"/>
+<path d="M457.499 139.215L465.499 125.359" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip97)">
+<path d="M107.016 255.837L122.051 261.31" stroke="#999999"/>
+<path d="M559.948 420.691L574.983 426.163" stroke="#999999"/>
+<path d="M420.691 122.052L426.163 107.017" stroke="#999999"/>
+</g>
+<g clip-path="url(#clip98)">
+<path d="M95.7817 297.762L111.539 300.541" stroke="#999999"/>
+<path d="M570.459 381.461L586.216 384.239" stroke="#999999"/>
+<path d="M381.459 111.54L384.237 95.7836" stroke="#999999"/>
+</g>
+</g>
+<g clip-path="url(#clip99)">
+<path d="M125.358 216.499L153.071 232.499" stroke="white" stroke-width="2"/>
+<path d="M528.926 449.499L556.639 465.499" stroke="white" stroke-width="2"/>
+<path d="M449.499 153.072L465.499 125.359" stroke="white" stroke-width="2"/>
+</g>
+<g clip-path="url(#clip100)">
+<path d="M216.499 125.36L232.499 153.073" stroke="white" stroke-width="2"/>
+<path d="M125.358 465.501L153.071 449.501" stroke="white" stroke-width="2"/>
+<path d="M528.926 232.501L556.639 216.501" stroke="white" stroke-width="2"/>
+</g>
+<path d="M341 92L341 124" stroke="white" stroke-width="2"/>
+<path d="M92 341L124 341" stroke="white" stroke-width="2"/>
+<path d="M558 341L590 341" stroke="white" stroke-width="2"/>
+<defs>
+<clipPath id="clip0">
+<rect width="498" height="498" fill="white" transform="translate(92 92)"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="498" height="498" fill="white" transform="translate(87.6931 96.3826) rotate(-1)"/>
+</clipPath>
+<clipPath id="clip2">
+<rect width="498" height="498" fill="white" transform="translate(83.4627 100.842) rotate(-2)"/>
+</clipPath>
+<clipPath id="clip3">
+<rect width="498" height="498" fill="white" transform="translate(79.3093 105.372) rotate(-3)"/>
+</clipPath>
+<clipPath id="clip4">
+<rect width="498" height="498" fill="white" transform="translate(75.2375 109.977) rotate(-4)"/>
+</clipPath>
+<clipPath id="clip5">
+<rect width="498" height="498" fill="white" transform="translate(71.2459 114.65) rotate(-5)"/>
+</clipPath>
+<clipPath id="clip6">
+<rect width="498" height="498" fill="white" transform="translate(67.337 119.393) rotate(-6)"/>
+</clipPath>
+<clipPath id="clip7">
+<rect width="498" height="498" fill="white" transform="translate(63.5112 124.203) rotate(-7)"/>
+</clipPath>
+<clipPath id="clip8">
+<rect width="498" height="498" fill="white" transform="translate(59.769 129.076) rotate(-8)"/>
+</clipPath>
+<clipPath id="clip9">
+<rect width="498" height="498" fill="white" transform="translate(56.1125 134.018) rotate(-9)"/>
+</clipPath>
+<clipPath id="clip10">
+<rect width="498" height="498" fill="white" transform="translate(52.5446 139.021) rotate(-10)"/>
+</clipPath>
+<clipPath id="clip11">
+<rect width="498" height="498" fill="white" transform="translate(49.0627 144.086) rotate(-11)"/>
+</clipPath>
+<clipPath id="clip12">
+<rect width="498" height="498" fill="white" transform="translate(45.6713 149.211) rotate(-12)"/>
+</clipPath>
+<clipPath id="clip13">
+<rect width="498" height="498" fill="white" transform="translate(42.3687 154.395) rotate(-13)"/>
+</clipPath>
+<clipPath id="clip14">
+<rect width="498" height="498" fill="white" transform="translate(39.1587 159.636) rotate(-14)"/>
+</clipPath>
+<clipPath id="clip15">
+<rect width="498" height="498" fill="white" transform="translate(36.0388 164.931) rotate(-15)"/>
+</clipPath>
+<clipPath id="clip16">
+<rect width="498" height="498" fill="white" transform="translate(33.0122 170.279) rotate(-16)"/>
+</clipPath>
+<clipPath id="clip17">
+<rect width="498" height="498" fill="white" transform="translate(30.0802 175.683) rotate(-17)"/>
+</clipPath>
+<clipPath id="clip18">
+<rect width="498" height="498" fill="white" transform="translate(27.2407 181.133) rotate(-18)"/>
+</clipPath>
+<clipPath id="clip19">
+<rect width="498" height="498" fill="white" transform="translate(24.4994 186.632) rotate(-19)"/>
+</clipPath>
+<clipPath id="clip20">
+<rect width="498" height="498" fill="white" transform="translate(21.8539 192.179) rotate(-20)"/>
+</clipPath>
+<clipPath id="clip21">
+<rect width="498" height="498" fill="white" transform="translate(19.3054 197.772) rotate(-21)"/>
+</clipPath>
+<clipPath id="clip22">
+<rect width="498" height="498" fill="white" transform="translate(16.8547 203.41) rotate(-22)"/>
+</clipPath>
+<clipPath id="clip23">
+<rect width="498" height="498" fill="white" transform="translate(14.5027 209.086) rotate(-23)"/>
+</clipPath>
+<clipPath id="clip24">
+<rect width="498" height="498" fill="white" transform="translate(12.2488 214.804) rotate(-24)"/>
+</clipPath>
+<clipPath id="clip25">
+<rect width="498" height="498" fill="white" transform="translate(10.0965 220.561) rotate(-25)"/>
+</clipPath>
+<clipPath id="clip26">
+<rect width="498" height="498" fill="white" transform="translate(8.04507 226.354) rotate(-26)"/>
+</clipPath>
+<clipPath id="clip27">
+<rect width="498" height="498" fill="white" transform="translate(6.09586 232.182) rotate(-27)"/>
+</clipPath>
+<clipPath id="clip28">
+<rect width="498" height="498" fill="white" transform="translate(4.24811 238.046) rotate(-28)"/>
+</clipPath>
+<clipPath id="clip29">
+<rect width="498" height="498" fill="white" transform="translate(2.50092 243.939) rotate(-29)"/>
+</clipPath>
+<clipPath id="clip30">
+<rect width="498" height="498" fill="white" transform="translate(0.859528 249.86) rotate(-30)"/>
+</clipPath>
+<clipPath id="clip31">
+<rect width="498" height="498" fill="white" transform="translate(-0.679352 255.811) rotate(-31)"/>
+</clipPath>
+<clipPath id="clip32">
+<rect width="498" height="498" fill="white" transform="translate(-2.11456 261.786) rotate(-32)"/>
+</clipPath>
+<clipPath id="clip33">
+<rect width="498" height="498" fill="white" transform="translate(-3.44522 267.788) rotate(-33)"/>
+</clipPath>
+<clipPath id="clip34">
+<rect width="498" height="498" fill="white" transform="translate(-4.6705 273.811) rotate(-34)"/>
+</clipPath>
+<clipPath id="clip35">
+<rect width="498" height="498" fill="white" transform="translate(-5.79004 279.851) rotate(-35)"/>
+</clipPath>
+<clipPath id="clip36">
+<rect width="498" height="498" fill="white" transform="translate(-6.80432 285.915) rotate(-36)"/>
+</clipPath>
+<clipPath id="clip37">
+<rect width="498" height="498" fill="white" transform="translate(-7.7131 291.992) rotate(-37)"/>
+</clipPath>
+<clipPath id="clip38">
+<rect width="498" height="498" fill="white" transform="translate(-8.51587 298.085) rotate(-38)"/>
+</clipPath>
+<clipPath id="clip39">
+<rect width="498" height="498" fill="white" transform="translate(-9.21011 304.192) rotate(-39)"/>
+</clipPath>
+<clipPath id="clip40">
+<rect width="498" height="498" fill="white" transform="translate(-9.79922 310.31) rotate(-40)"/>
+</clipPath>
+<clipPath id="clip41">
+<rect width="498" height="498" fill="white" transform="translate(-10.2811 316.435) rotate(-41)"/>
+</clipPath>
+<clipPath id="clip42">
+<rect width="498" height="498" fill="white" transform="translate(-10.6572 322.572) rotate(-42)"/>
+</clipPath>
+<clipPath id="clip43">
+<rect width="498" height="498" fill="white" transform="translate(-10.9255 328.712) rotate(-43)"/>
+</clipPath>
+<clipPath id="clip44">
+<rect width="498" height="498" fill="white" transform="translate(-11.0858 334.856) rotate(-44)"/>
+</clipPath>
+<clipPath id="clip45">
+<rect width="498" height="498" fill="white" transform="translate(-11.1402 341) rotate(-45)"/>
+</clipPath>
+<clipPath id="clip46">
+<rect width="498" height="498" fill="white" transform="translate(-11.0861 347.144) rotate(-46)"/>
+</clipPath>
+<clipPath id="clip47">
+<rect width="498" height="498" fill="white" transform="translate(-10.9258 353.288) rotate(-47)"/>
+</clipPath>
+<clipPath id="clip48">
+<rect width="498" height="498" fill="white" transform="translate(-10.6575 359.428) rotate(-48)"/>
+</clipPath>
+<clipPath id="clip49">
+<rect width="498" height="498" fill="white" transform="translate(-10.2813 365.564) rotate(-49)"/>
+</clipPath>
+<clipPath id="clip50">
+<rect width="498" height="498" fill="white" transform="translate(-9.79883 371.69) rotate(-50)"/>
+</clipPath>
+<clipPath id="clip51">
+<rect width="498" height="498" fill="white" transform="translate(-9.20966 377.808) rotate(-51)"/>
+</clipPath>
+<clipPath id="clip52">
+<rect width="498" height="498" fill="white" transform="translate(-8.51544 383.915) rotate(-52)"/>
+</clipPath>
+<clipPath id="clip53">
+<rect width="498" height="498" fill="white" transform="translate(-7.71268 390.008) rotate(-53)"/>
+</clipPath>
+<clipPath id="clip54">
+<rect width="498" height="498" fill="white" transform="translate(-6.80389 396.085) rotate(-54)"/>
+</clipPath>
+<clipPath id="clip55">
+<rect width="498" height="498" fill="white" transform="translate(-5.79025 402.148) rotate(-55)"/>
+</clipPath>
+<clipPath id="clip56">
+<rect width="498" height="498" fill="white" transform="translate(-4.66913 408.189) rotate(-56)"/>
+</clipPath>
+<clipPath id="clip57">
+<rect width="498" height="498" fill="white" transform="translate(-3.44385 414.212) rotate(-57)"/>
+</clipPath>
+<clipPath id="clip58">
+<rect width="498" height="498" fill="white" transform="translate(-2.11517 420.214) rotate(-58)"/>
+</clipPath>
+<clipPath id="clip59">
+<rect width="498" height="498" fill="white" transform="translate(-0.680023 426.189) rotate(-59)"/>
+</clipPath>
+<clipPath id="clip60">
+<rect width="498" height="498" fill="white" transform="translate(0.859192 432.14) rotate(-60)"/>
+</clipPath>
+<clipPath id="clip61">
+<rect width="498" height="498" fill="white" transform="translate(2.50073 438.061) rotate(-61)"/>
+</clipPath>
+<clipPath id="clip62">
+<rect width="498" height="498" fill="white" transform="translate(4.24792 443.953) rotate(-62)"/>
+</clipPath>
+<clipPath id="clip63">
+<rect width="498" height="498" fill="white" transform="translate(6.0957 449.818) rotate(-63)"/>
+</clipPath>
+<clipPath id="clip64">
+<rect width="498" height="498" fill="white" transform="translate(8.04492 455.646) rotate(-64)"/>
+</clipPath>
+<clipPath id="clip65">
+<rect width="498" height="498" fill="white" transform="translate(10.0962 461.439) rotate(-65)"/>
+</clipPath>
+<clipPath id="clip66">
+<rect width="498" height="498" fill="white" transform="translate(12.2485 467.196) rotate(-66)"/>
+</clipPath>
+<clipPath id="clip67">
+<rect width="498" height="498" fill="white" transform="translate(14.5023 472.915) rotate(-67)"/>
+</clipPath>
+<clipPath id="clip68">
+<rect width="498" height="498" fill="white" transform="translate(16.8544 478.591) rotate(-68)"/>
+</clipPath>
+<clipPath id="clip69">
+<rect width="498" height="498" fill="white" transform="translate(19.3051 484.228) rotate(-69)"/>
+</clipPath>
+<clipPath id="clip70">
+<rect width="498" height="498" fill="white" transform="translate(21.853 489.821) rotate(-70)"/>
+</clipPath>
+<clipPath id="clip71">
+<rect width="498" height="498" fill="white" transform="translate(24.4988 495.368) rotate(-71)"/>
+</clipPath>
+<clipPath id="clip72">
+<rect width="498" height="498" fill="white" transform="translate(27.2422 500.867) rotate(-72)"/>
+</clipPath>
+<clipPath id="clip73">
+<rect width="498" height="498" fill="white" transform="translate(30.0797 506.317) rotate(-73)"/>
+</clipPath>
+<clipPath id="clip74">
+<rect width="498" height="498" fill="white" transform="translate(33.0117 511.721) rotate(-74)"/>
+</clipPath>
+<clipPath id="clip75">
+<rect width="498" height="498" fill="white" transform="translate(36.0385 517.069) rotate(-75)"/>
+</clipPath>
+<clipPath id="clip76">
+<rect width="498" height="498" fill="white" transform="translate(39.1577 522.364) rotate(-76)"/>
+</clipPath>
+<clipPath id="clip77">
+<rect width="498" height="498" fill="white" transform="translate(42.3696 527.605) rotate(-77)"/>
+</clipPath>
+<clipPath id="clip78">
+<rect width="498" height="498" fill="white" transform="translate(45.6704 532.789) rotate(-78)"/>
+</clipPath>
+<clipPath id="clip79">
+<rect width="498" height="498" fill="white" transform="translate(49.0638 537.914) rotate(-79)"/>
+</clipPath>
+<clipPath id="clip80">
+<rect width="498" height="498" fill="white" transform="translate(52.5433 542.979) rotate(-80)"/>
+</clipPath>
+<clipPath id="clip81">
+<rect width="498" height="498" fill="white" transform="translate(56.1136 547.982) rotate(-81)"/>
+</clipPath>
+<clipPath id="clip82">
+<rect width="498" height="498" fill="white" transform="translate(59.768 552.924) rotate(-82)"/>
+</clipPath>
+<clipPath id="clip83">
+<rect width="498" height="498" fill="white" transform="translate(63.5103 557.797) rotate(-83)"/>
+</clipPath>
+<clipPath id="clip84">
+<rect width="498" height="498" fill="white" transform="translate(67.3361 562.607) rotate(-84)"/>
+</clipPath>
+<clipPath id="clip85">
+<rect width="498" height="498" fill="white" transform="translate(71.2457 567.35) rotate(-85)"/>
+</clipPath>
+<clipPath id="clip86">
+<rect width="498" height="498" fill="white" transform="translate(75.2372 572.023) rotate(-86)"/>
+</clipPath>
+<clipPath id="clip87">
+<rect width="498" height="498" fill="white" transform="translate(79.3091 576.628) rotate(-87)"/>
+</clipPath>
+<clipPath id="clip88">
+<rect width="498" height="498" fill="white" transform="translate(83.4624 581.158) rotate(-88)"/>
+</clipPath>
+<clipPath id="clip89">
+<rect width="498" height="498" fill="white" transform="translate(87.6929 585.617) rotate(-89)"/>
+</clipPath>
+<clipPath id="clip90">
+<rect width="498" height="498" fill="white" transform="translate(92 92)"/>
+</clipPath>
+<clipPath id="clip91">
+<rect width="498" height="498" fill="white" transform="translate(52.5446 139.021) rotate(-10)"/>
+</clipPath>
+<clipPath id="clip92">
+<rect width="498" height="498" fill="white" transform="translate(21.8532 192.179) rotate(-20)"/>
+</clipPath>
+<clipPath id="clip93">
+<rect width="498" height="498" fill="white" transform="translate(0.859528 249.86) rotate(-30)"/>
+</clipPath>
+<clipPath id="clip94">
+<rect width="498" height="498" fill="white" transform="translate(-9.79922 310.31) rotate(-40)"/>
+</clipPath>
+<clipPath id="clip95">
+<rect width="498" height="498" fill="white" transform="translate(-9.79883 371.69) rotate(-50)"/>
+</clipPath>
+<clipPath id="clip96">
+<rect width="498" height="498" fill="white" transform="translate(0.859192 432.14) rotate(-60)"/>
+</clipPath>
+<clipPath id="clip97">
+<rect width="498" height="498" fill="white" transform="translate(21.8534 489.821) rotate(-70)"/>
+</clipPath>
+<clipPath id="clip98">
+<rect width="498" height="498" fill="white" transform="translate(52.5433 542.979) rotate(-80)"/>
+</clipPath>
+<clipPath id="clip99">
+<rect width="498" height="498" fill="white" transform="translate(0.858307 432.14) rotate(-60)"/>
+</clipPath>
+<clipPath id="clip100">
+<rect width="498" height="498" fill="white" transform="translate(0.858307 249.86) rotate(-30)"/>
+</clipPath>
+</defs>
+</svg>

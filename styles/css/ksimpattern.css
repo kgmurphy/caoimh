@@ -1,0 +1,48 @@
+.card-body {
+  /* Very bottom gradient*/
+  background: linear-gradient(135deg, black 0%, #121315 100%);
+  text-align: center;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.card-body .card-text {
+  color: #eaeaea;
+  font-size: 16px;
+  line-height: 24px;
+  text-overflow: ellipsis;
+  margin: 16px 13px 32px 13px;
+}
+.card-body .card-title {
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 40px;
+}
+.card-body span {
+  color: #50bfd1;
+  font-size: 14px;
+  font-family: GT Pressura Regular;
+}
+
+.card-footer {
+  height: 340px;
+  width: 100%;
+  /*middle gradient*/
+  background: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(45deg, transparent 1px, transparent 44px, rgba(255, 255, 255, 0.1) 45px, transparent 1px), linear-gradient(-45deg, transparent 1px, transparent 44px, rgba(255, 255, 255, 0.1) 45px, transparent 1px);
+  background-size: 64px 64px, 64px 64px, 64px 64px, 64px 64px;
+  background-position: 0 0, -0.5px 0, 0 0, 0 0;
+}
+
+.card-footer-content {
+  display: flex;
+  height: 340px;
+  width: 100%;
+  position: relative;
+  /*top gradient*/
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+/*# sourceMappingURL=ksimpattern.css.map */

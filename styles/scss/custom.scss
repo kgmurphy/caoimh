@@ -1,0 +1,224 @@
+@import "variables.scss";
+
+$gridOpacity: 0.75;
+$gridLine-light: rgba(255, 255, 255, 0.02);
+$gridLine-dark: rgba(255, 255, 255, $gridOpacity);
+
+@mixin makeOpaque($r, $g, $b, $opacity) {
+  background-color: rgba($r, $g, $b, $opacity);
+}
+
+@mixin flex-wrap-fix($flex-basis, $max-viewport-width: 2000px) {
+  flex-grow: 1;
+  flex-basis: $flex-basis;
+  max-width: 100%;
+
+  $multiplier: 1;
+  $current-width: 0px;
+
+  @while $current-width < $max-viewport-width {
+    $current-width: $current-width + $flex-basis;
+    $multiplier: $multiplier + 1;
+
+    @media (min-width: $flex-basis * $multiplier) {
+      max-width: percentage(1 / $multiplier);
+    }
+  }
+}
+
+.card_skin {
+  @include flex-wrap-fix(100px);
+}
+
+body,
+html {
+  background-color: #fff;
+  background-image:
+    /*Large horizontal*/ linear-gradient(
+      $gridLine-light 1px,
+      transparent 1px
+    ),
+    /*Large vertical*/
+      linear-gradient(90deg, $gridLine-light 1px, transparent 1px),
+    /*Small horizontal*/ linear-gradient($gridLine-light 1px, transparent 1px),
+    /*Small vertical*/
+      linear-gradient(90deg, $gridLine-light 1px, transparent 1px);
+
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+//Make paragraphs bottom margin visible :
+
+p {
+  border-bottom: 1.5rem solid rgba(231, 252, 249, 1);
+}
+
+* {
+  font-family: "IBMPlex-Regular";
+}
+
+.system,
+.system a {
+  font-family: "IIBMPlex-Regular";
+  text-transform: uppercase;
+  color: $blue-sky-shade-50;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+.system a {
+  text-decoration: none;
+}
+
+span.highlight-yellow {
+  font-family: "FiraCode-Light";
+  color: $green-mint;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-pink {
+  font-family: "FiraCode-Light";
+  color: $blue-sky-shade-50;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-orange {
+  font-family: "FiraCode-Light";
+  color: $green-mint;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-blue {
+  font-family: "FiraCode-Light";
+  color: $blue-sky;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-green {
+  font-family: "FiraCode-Light";
+  color: $green-medium;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+span.highlight-green-light {
+  font-family: "FiraCode-Light";
+  color: $green-medium;
+  line-height: 1rem;
+  font-size: 1rem;
+}
+
+hr {
+  background-color: #4bbed2;
+}
+
+br {
+  line-height: 16px;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+img,
+svg {
+  //display: block;
+}
+
+fieldset {
+  margin-bottom: 4rem;
+}
+
+figure {
+  padding: 4rem;
+  border: solid 0.5rem #000;
+}
+
+// Moustaches
+
+.block-wrap {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+
+.sample {
+  width: 100%;
+  align-self: center;
+  padding-top: 1rem;
+}
+
+.moustache {
+  border: solid 1px $green-medium;
+  border-left: 0;
+  min-width: 1em;
+  margin-left: 1rem;
+}
+
+.dash {
+  background-color: $green-medium;
+  align-self: center;
+  min-width: 1em;
+  height: 1px;
+}
+
+.description {
+  align-self: center;
+
+  p {
+    margin: 1rem;
+    background: transparent;
+  }
+}
+
+.overlay {
+  border-top: solid 1px hotpink;
+  border-bottom: solid 1px hotpink;
+  width: 100%;
+  position: fixed;
+  height: 1rem;
+  top: 50vh;
+
+  display: none;
+}
+
+.c4,
+.c6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.c7 {
+  width: 8rem;
+}
+
+/*c8 has the specs - need to lay it out horizontally*/
+.c8 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.specs {
+  border-left: solid 1px hotpink;
+  width: 50%;
+}
+
+.specs {
+  margin-left: 2rem;
+  line-height: 1.5rem;
+  font-size: 1em;
+}
+
+td {
+  flex: 1;
+  justify-content: space-between;
+}

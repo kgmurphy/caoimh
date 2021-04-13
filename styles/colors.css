@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+/*Colors classes*/
+.green-mint {
+  color: #17e4c4;
+}
+
+.peach {
+  color: #fc6554;
+}
+
+.blue-sky {
+  color: #00d5ff;
+}
+
+/*# sourceMappingURL=colors.css.map */

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+/*-- demo --*/
+.demo {
+  display: flex;
+  flex-direction: row;
+  background-size: 5px 5px;
+  padding: 1rem;
+}
+.demo p {
+  background-image: linear-gradient(rgba(65, 255, 209, 0.5) 1px, transparent 1px), linear-gradient(90deg, transparent 1px, transparent 1px), linear-gradient(rgba(65, 255, 209, 0.5) 1px, transparent 1px), linear-gradient(90deg, transparent 1px, transparent 1px);
+  background-size: 64px 64px, 64px 64px, 8px 8px, 8px 8px;
+  background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+}
+
+.demo_wrap {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=lab_line-height.css.map */

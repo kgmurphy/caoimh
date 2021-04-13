@@ -1,0 +1,89 @@
+/*-------------*/
+:root {
+  --primary: #898df8;
+  --primary-rgb: 3, 168, 124;
+}
+
+.block {
+  background-color: rgba(var(--primary-rgb), 0.3);
+}
+
+/*-------------*/
+/*
+$stop: get-hypotenuse(64px, 64px);
+$start: get-hypotenuse(64px, 64px);
+*/
+:root {
+  --color-background: #fff;
+  --color-alpha-light: 0.55;
+  --color-alpha-extralight: 0.5;
+  --color-vertical-lines: rgba(255, 255, 255, var(--color-alpha-extralight));
+  --color-horizontal-lines: rgba(255, 255, 255, var(--color-alpha-extralight));
+  --color-diagonal-lines: rgba(255, 255, 255, var(--color-alpha-light));
+  --line-thickness-1: 1px;
+  --box-size: 64px;
+  --stop: 44px;
+  --start: 45px;
+}
+
+body {
+  background-color: #111213;
+}
+
+/* a few variables...*/
+:root {
+  --color-background: #010101;
+  --color-alpha-light: 0.25;
+  --color-alpha-extralight: 0.25;
+  --color-vertical-lines: rgba(255, 255, 255, var(--color-alpha-extralight));
+  --color-horizontal-lines: rgba(255, 255, 255, var(--color-alpha-extralight));
+  --color-diagonal-lines: rgba(255, 255, 255, var(--color-alpha-light));
+  --line-thickness-1: 1px;
+  --box-size: 64px;
+}
+
+body,
+.grid_cell {
+  background-image: linear-gradient(var(--color-vertical-lines) var(--line-thickness-1), transparent var(--line-thickness-1)), linear-gradient(90deg, var(--color-horizontal-lines) var(--line-thickness-1), transparent var(--line-thickness-1));
+  /*---
+    ,
+    linear-gradient(
+      45deg,
+      transparent var(--line-thickness-1),
+      transparent 44px,
+      var(--color-diagonal-lines) 45px,
+      transparent var(--line-thickness-1)
+    ),
+    linear-gradient(
+      -45deg,
+      transparent var(--line-thickness-1),
+      transparent 44px,
+      var(--color-diagonal-lines) 45px,
+      transparent var(--line-thickness-1)
+    )
+    ---*/
+  background-size: var(--box-size) var(--box-size), var(--box-size) var(--box-size), var(--box-size) var(--box-size), var(--box-size) var(--box-size);
+  background-position: 0 0, -0.5px 0, 0 0, 0 0;
+}
+
+.radial-overlay {
+  /*-- This adds a gradient over the body bg
+   making it look like the pattern fades away --*/
+  /*
+  background-image: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  */
+  background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, black 100%);
+}
+
+.box {
+  width: 64px;
+  height: 64px;
+  background-color: hotpink;
+}
+
+/*# sourceMappingURL=patterns.css.map */

@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/*----------------------------------------------*/
+/*
+  1. Generic button stuff - stuff all buttons have such as flex properties, focus etc
+  2.
+ */
+/*----------------------------------------------*/
+/* Base units */
+/*Grønt Punkt colors*/
+/* Usage:
+@include box-shadow();
+*/
+button,
+button span {
+  white-space: nowrap;
+}
+
+/* Generic button stuff */
+.btn {
+  --border-thickness: 0.125rem;
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+  --icon-size: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1em;
+  line-height: 1rem;
+  border: solid var(--border-thickness) black;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+.btn span.icon svg {
+  height: var(--icon-size);
+}
+.btn:focus {
+  outline: 0;
+  box-shadow: 0px 0px 0px 1px #dadada, 0px 0px 0px 2px #dadada;
+}
+
+.btn {
+  /* ... */
+  /* all browsers: remove the default outline since
+      we are rolling our own focus styles */
+  outline: none;
+}
+
+/* Firefox: removes the inner border shown on focus */
+.btn::-moz-focus-inner {
+  border: none;
+}
+
+/* Button levels */
+/*
+*
+*  PRIMARY - COLORS and SVG's
+*  mixin :  buttonColors($backgroundColor, $borderColor, $labelColor)
+*
+*/
+.priority_primary.state_inactive {
+  background-color: #003f4c;
+  border-color: #003f4c;
+  color: #17e4c4;
+}
+.priority_primary.state_inactive svg {
+  fill: #17e4c4;
+}
+.priority_primary:hover, .priority_primary.state_hover {
+  background-color: #17e4c4;
+  border-color: #003f4c;
+  color: #003f4c;
+}
+.priority_primary:hover svg, .priority_primary.state_hover svg {
+  fill: #003f4c;
+}
+.priority_primary:active, .priority_primary.state_active {
+  background-color: #e7fcf9;
+  border-color: #003f4c;
+  color: #003f4c;
+}
+.priority_primary:active svg, .priority_primary.state_active svg {
+  fill: #003f4c;
+}
+.priority_primary:disabled {
+  background-color: #ececec;
+  border-color: #dadada;
+  color: #8d8d8d;
+}
+.priority_primary:disabled svg {
+  fill: #8d8d8d;
+}
+.priority_primary.state_selected {
+  background-color: #e7fcf9;
+  border-color: #003f4c;
+  color: #003f4c;
+}
+.priority_primary.state_selected svg {
+  fill: #003f4c;
+}
+.priority_primary:focus, .priority_primary.state_focused {
+  background-color: #003f4c;
+  border-color: #17e4c4;
+  color: #17e4c4;
+  outline: 0;
+  box-shadow: 0px 0px 0px 1px #e88529, 0px 0px 0px 2px #e88529;
+}
+.priority_primary:focus svg, .priority_primary.state_focused svg {
+  fill: #17e4c4;
+}
+
+/*
+*
+*  SECONDARY - COLORS and SVG's
+*
+*/
+.priority_secondary {
+  background-color: #004359;
+  border-color: #004359;
+  color: #00d5ff;
+}
+.priority_secondary svg {
+  fill: #00d5ff;
+}
+.priority_secondary:hover, .priority_secondary.state_hover {
+  background-color: #00d5ff;
+  border-color: #004359;
+  color: #004359;
+}
+.priority_secondary:hover svg, .priority_secondary.state_hover svg {
+  fill: #004359;
+}
+.priority_secondary:active, .priority_secondary.state_active {
+  background-color: #e5faff;
+  border-color: #004359;
+  color: #004359;
+}
+.priority_secondary:active svg, .priority_secondary.state_active svg {
+  fill: #004359;
+}
+.priority_secondary.state_selected {
+  background-color: #e5faff;
+  border-color: #004359;
+  color: #004359;
+}
+.priority_secondary.state_selected svg {
+  fill: #004359;
+}
+.priority_secondary:disabled {
+  background-color: #ececec;
+  border-color: #dadada;
+  color: #8d8d8d;
+}
+.priority_secondary:disabled svg {
+  fill: #8d8d8d;
+}
+.priority_secondary:focus, .priority_secondary.state_focused {
+  background-color: #004359;
+  border-color: #00d5ff;
+  color: #00d5ff;
+  outline: 0;
+  box-shadow: 0px 0px 0px 1px #e88529, 0px 0px 0px 2px #e88529;
+}
+.priority_secondary:focus svg, .priority_secondary.state_focused svg {
+  fill: #00d5ff;
+}
+
+/*
+*
+*  TERITARY - COLORS and SVG's
+*
+*/
+/*
+$--color-profile-red-light-extra: rgba(250, 219, 214, 1);
+$--color-profile-red-light: rgba(245, 182, 173, 1);
+$--color-profile-red: rgba(235, 110, 92, 1);
+$--color-profile-red-dark: rgba(117, 55, 46,1);
+$--color-profile-red-dark-extra: rgba(59, 27, 23, 1);
+*/
+.priority_tertiary {
+  background-color: #eb6e5c;
+  border-color: #75372e;
+  color: #3b1b17;
+}
+.priority_tertiary svg {
+  fill: #3b1b17;
+}
+.priority_tertiary:hover, .priority_tertiary.state_hover {
+  background-color: #f5b6ad;
+  border-color: #eb6e5c;
+  color: #75372e;
+}
+.priority_tertiary:hover svg, .priority_tertiary.state_hover svg {
+  fill: #75372e;
+}
+.priority_tertiary:active, .priority_tertiary.state_active {
+  background-color: #fadbd6;
+  border-color: #eb6e5c;
+  color: #75372e;
+}
+.priority_tertiary:active svg, .priority_tertiary.state_active svg {
+  fill: #75372e;
+}
+.priority_tertiary.state_selected {
+  background-color: #fadbd6;
+  border-color: #eb6e5c;
+  color: #75372e;
+}
+.priority_tertiary.state_selected svg {
+  fill: #75372e;
+}
+.priority_tertiary:disabled {
+  background-color: #ececec;
+  border-color: #dadada;
+  color: #8d8d8d;
+}
+.priority_tertiary:disabled svg {
+  fill: #8d8d8d;
+}
+.priority_tertiary:focus, .priority_tertiary.state_focused {
+  background-color: #eb6e5c;
+  border-color: #75372e;
+  color: #3b1b17;
+  outline: 0;
+  box-shadow: 0px 0px 0px 1px #e88529, 0px 0px 0px 2px #e88529;
+}
+.priority_tertiary:focus svg, .priority_tertiary.state_focused svg {
+  fill: #3b1b17;
+}
+
+/*
+*
+*  SMALL - PADDINGS & MARGINS
+*
+*/
+.btn.size_xsmall {
+  --top-bottom-padding: 0.1875rem;
+  --buttonSize: 1.5rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1rem;
+  /* Small with icon left */
+  /* Small with icon right*/
+  /* Small icon only */
+}
+.btn.size_xsmall.icon_left {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0;
+}
+.btn.size_xsmall.icon_left svg {
+  margin-right: 0.4375rem;
+  margin-left: 0.125rem;
+}
+.btn.size_xsmall.icon_right {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0rem var(--top-bottom-padding) 1rem;
+}
+.btn.size_xsmall.icon_right svg {
+  margin-left: 0.4375rem;
+  margin-right: 0.125rem;
+}
+.btn.size_xsmall.icon_only {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0 var(--top-bottom-padding) 0;
+}
+.btn.size_xsmall.icon_only svg {
+  margin-left: 0.125rem;
+  margin-right: 0.125rem;
+}
+
+/*
+*
+*  SMALL - PADDINGS & MARGINS
+*
+*/
+.btn.size_small {
+  --top-bottom-padding: 0.4375rem;
+  --buttonSize: 2rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1rem;
+  /* Small with icon left */
+  /* Small with icon right*/
+  /* Small icon only */
+}
+.btn.size_small.icon_left {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.325rem;
+}
+.btn.size_small.icon_left svg {
+  margin-right: 0.4375rem;
+}
+.btn.size_small.icon_right {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0.325rem var(--top-bottom-padding) 1rem;
+}
+.btn.size_small.icon_right svg {
+  margin-left: 0.4375rem;
+}
+.btn.size_small.icon_only {
+  --top-bottom-padding: 0.1875rem;
+  padding: var(--top-bottom-padding) 0.25rem var(--top-bottom-padding) 0.25rem;
+}
+
+/*
+*
+*  DEFAULT - PADDINGS & MARGINS
+*
+*/
+.btn.size_default {
+  --top-bottom-padding: 0.6875rem;
+  --buttonSize: 2.5rem;
+  background-color: #111;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 0.25rem;
+  /* Default with icon left*/
+  /* Default with icon right*/
+  /* Default icon only */
+}
+.btn.size_default.icon_left {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding) 0.625rem;
+}
+.btn.size_default.icon_left svg {
+  margin-right: 0.6875rem;
+}
+.btn.size_default.icon_right {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.625rem var(--top-bottom-padding) 0.75rem;
+}
+.btn.size_default.icon_right svg {
+  margin-left: 0.6875rem;
+}
+.btn.size_default.icon_only {
+  --top-bottom-padding: 0.4375rem;
+  padding: var(--top-bottom-padding) 0.5rem var(--top-bottom-padding) 0.5rem;
+}
+
+/*
+*
+*  LARGE - PADDINGS & MARGINS
+*
+*/
+.btn.size_large {
+  --top-bottom-padding: 0.9375rem;
+  --buttonSize: 3rem;
+  font-size: 1.125em;
+  line-height: 1.125rem;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  border-radius: 1.5rem;
+  /* Large with icon left*/
+  /* Large with icon right*/
+  /* Large icon only */
+}
+.btn.size_large.icon_left {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.375rem;
+}
+.btn.size_large.icon_left svg {
+  margin-right: 0.9375rem;
+  margin-left: 0.5rem;
+}
+.btn.size_large.icon_right {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 0.375rem var(--top-bottom-padding) 1rem;
+}
+.btn.size_large.icon_right svg {
+  margin-right: 0.4375rem;
+  margin-left: 0.9375rem;
+}
+.btn.size_large.icon_only {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 0.75rem var(--top-bottom-padding) 0.75rem;
+}
+
+/*
+*
+*  X-LARGE - PADDINGS & MARGINS
+*
+*/
+.btn.size_xlarge {
+  border-radius: 3rem;
+  border-width: 3px;
+  --top-bottom-padding: 1rem;
+  --buttonSize: 4rem;
+  font-size: 1.5em;
+  height: var(--buttonSize);
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 1rem;
+  /* Large with icon left*/
+  /* Large with icon right*/
+  /* Large icon only */
+}
+.btn.size_xlarge.icon_left {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 1rem var(--top-bottom-padding) 0.375rem;
+}
+.btn.size_xlarge.icon_left svg {
+  margin-right: 0.9375rem;
+  margin-left: 0.5rem;
+}
+.btn.size_xlarge.icon_right {
+  --top-bottom-padding: 0.6875rem;
+  padding: var(--top-bottom-padding) 0.375rem var(--top-bottom-padding) 1rem;
+}
+.btn.size_xlarge.icon_right svg {
+  margin-right: 0.4375rem;
+  margin-left: 0.9375rem;
+}
+.btn.size_xlarge.icon_only {
+  padding: 0.9375rem;
+  --top-bottom-padding: 0.6875rem;
+}
+
+/*# sourceMappingURL=buttons.css.map */
